@@ -1,0 +1,5 @@
+acc,f1,prec,rec,eval_f1,dataset,method,text_backbone,seed,logger_name
+88.76,88.68,88.56,88.93,0.9025,MIntRec,baseline,bert-base-uncased,0,baseline_MIntRec_binary-class_2022-11-09-18-53-17 t+a+v
+90.11,90.01,89.92,90.14,0.9157,MIntRec,baseline,bert-base-uncased,0,baseline_MIntRec_binary-class_2022-11-09-19-02-38 t
+60.45,58.88,59.6,58.98,0.6019,MIntRec,baseline,bert-base-uncased,0,baseline_MIntRec_binary-class_2022-11-09-19-09-57 a
+52.58,52.52,52.83,52.87,0.5532,MIntRec,baseline,bert-base-uncased,0,baseline_MIntRec_binary-class_2022-11-09-19-13-11 v

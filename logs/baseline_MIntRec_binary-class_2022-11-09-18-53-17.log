@@ -1,0 +1,103 @@
+2022-11-09 18:53:17,297 - ============================== Params ==============================
+2022-11-09 18:53:17,297 - logger_name: baseline_MIntRec_binary-class_2022-11-09-18-53-17
+2022-11-09 18:53:17,297 - dataset: MIntRec
+2022-11-09 18:53:17,297 - data_mode: binary-class
+2022-11-09 18:53:17,297 - method: baseline
+2022-11-09 18:53:17,297 - text_backbone: bert-base-uncased
+2022-11-09 18:53:17,298 - seed: 0
+2022-11-09 18:53:17,298 - num_workers: 0
+2022-11-09 18:53:17,298 - gpu_id: 0
+2022-11-09 18:53:17,298 - data_path: MIA-datasets
+2022-11-09 18:53:17,298 - train: True
+2022-11-09 18:53:17,298 - tune: False
+2022-11-09 18:53:17,298 - save_model: True
+2022-11-09 18:53:17,298 - save_results: True
+2022-11-09 18:53:17,298 - log_path: logs
+2022-11-09 18:53:17,298 - cache_path: cache
+2022-11-09 18:53:17,298 - video_data_path: video_data
+2022-11-09 18:53:17,298 - audio_data_path: audio_data
+2022-11-09 18:53:17,298 - video_feats_path: video_feats.pkl
+2022-11-09 18:53:17,298 - audio_feats_path: audio_feats.pkl
+2022-11-09 18:53:17,298 - results_path: results
+2022-11-09 18:53:17,298 - output_path: outputs
+2022-11-09 18:53:17,298 - model_path: models
+2022-11-09 18:53:17,298 - config_file_name: baseline_bert_bi
+2022-11-09 18:53:17,298 - results_file_name: baseline_bert_bi.csv
+2022-11-09 18:53:17,298 - padding_mode: zero
+2022-11-09 18:53:17,298 - padding_loc: end
+2022-11-09 18:53:17,298 - need_aligned: False
+2022-11-09 18:53:17,298 - eval_monitor: f1
+2022-11-09 18:53:17,298 - train_batch_size: 6
+2022-11-09 18:53:17,298 - eval_batch_size: 6
+2022-11-09 18:53:17,298 - test_batch_size: 4
+2022-11-09 18:53:17,298 - wait_patience: 4
+2022-11-09 18:53:17,298 - num_train_epochs: 100
+2022-11-09 18:53:17,298 - hidden_size: 256
+2022-11-09 18:53:17,298 - dropout_rate: 0
+2022-11-09 18:53:17,298 - lr: 3e-05
+2022-11-09 18:53:17,298 - grad_clip: -1.0
+2022-11-09 18:53:17,298 - gamma: 0.5
+2022-11-09 18:53:17,298 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'hidden_size': 256, 'dropout_rate': 0, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2022-11-09 18:53:17,298 - pred_output_path: outputs\baseline_MIntRec_binary-class_2022-11-09-18-53-17
+2022-11-09 18:53:17,299 - model_output_path: outputs\baseline_MIntRec_binary-class_2022-11-09-18-53-17\models
+2022-11-09 18:53:17,299 - ============================== End Params ==============================
+2022-11-09 18:53:17,317 - Generate Text Features Begin...
+2022-11-09 18:53:34,893 - Generate Text Features Finished...
+2022-11-09 18:53:34,893 - Load Video Features Begin...
+2022-11-09 18:53:35,365 - Load Video Features Finished...
+2022-11-09 18:53:35,794 - Load Audio Features Begin...
+2022-11-09 18:53:36,632 - Load Audio Features Finished...
+2022-11-09 18:53:59,380 - Multimodal intent recognition begins...
+2022-11-09 18:53:59,382 - Training begins...
+2022-11-09 18:54:32,721 - ***** Epoch: 1: Eval results *****
+2022-11-09 18:54:32,731 -   best_eval_score = 0.8739
+2022-11-09 18:54:32,731 -   eval_score = 0.8739
+2022-11-09 18:54:32,731 -   train_loss = 0.3755
+2022-11-09 18:55:00,302 - EarlyStopping counter: 1 out of 4
+2022-11-09 18:55:00,302 - ***** Epoch: 2: Eval results *****
+2022-11-09 18:55:00,302 -   best_eval_score = 0.8739
+2022-11-09 18:55:00,302 -   eval_score = 0.8359
+2022-11-09 18:55:00,302 -   train_loss = 0.1117
+2022-11-09 18:55:27,650 - ***** Epoch: 3: Eval results *****
+2022-11-09 18:55:27,650 -   best_eval_score = 0.8893
+2022-11-09 18:55:27,650 -   eval_score = 0.8893
+2022-11-09 18:55:27,650 -   train_loss = 0.0539
+2022-11-09 18:55:55,277 - ***** Epoch: 4: Eval results *****
+2022-11-09 18:55:55,277 -   best_eval_score = 0.9025
+2022-11-09 18:55:55,277 -   eval_score = 0.9025
+2022-11-09 18:55:55,277 -   train_loss = 0.0119
+2022-11-09 18:56:22,549 - EarlyStopping counter: 1 out of 4
+2022-11-09 18:56:22,550 - ***** Epoch: 5: Eval results *****
+2022-11-09 18:56:22,550 -   best_eval_score = 0.9025
+2022-11-09 18:56:22,550 -   eval_score = 0.8868
+2022-11-09 18:56:22,550 -   train_loss = 0.0156
+2022-11-09 18:56:49,551 - EarlyStopping counter: 2 out of 4
+2022-11-09 18:56:49,551 - ***** Epoch: 6: Eval results *****
+2022-11-09 18:56:49,551 -   best_eval_score = 0.9025
+2022-11-09 18:56:49,551 -   eval_score = 0.8946
+2022-11-09 18:56:49,551 -   train_loss = 0.0072
+2022-11-09 18:57:17,934 - EarlyStopping counter: 3 out of 4
+2022-11-09 18:57:17,934 - ***** Epoch: 7: Eval results *****
+2022-11-09 18:57:17,934 -   best_eval_score = 0.9025
+2022-11-09 18:57:17,934 -   eval_score = 0.8972
+2022-11-09 18:57:17,934 -   train_loss = 0.0015
+2022-11-09 18:57:47,433 - EarlyStopping counter: 4 out of 4
+2022-11-09 18:57:47,434 - ***** Epoch: 8: Eval results *****
+2022-11-09 18:57:47,434 -   best_eval_score = 0.9025
+2022-11-09 18:57:47,434 -   eval_score = 0.8949
+2022-11-09 18:57:47,434 -   train_loss = 0.001
+2022-11-09 18:57:47,434 - EarlyStopping at epoch 8
+2022-11-09 18:57:47,435 - Trained models are saved in outputs\baseline_MIntRec_binary-class_2022-11-09-18-53-17\models
+2022-11-09 18:57:48,737 - Training is finished...
+2022-11-09 18:57:48,737 - Testing begins...
+2022-11-09 18:57:54,035 - ***** Test: Confusion Matrix *****
+2022-11-09 18:57:54,039 - [[217  31]
+ [ 19 178]]
+2022-11-09 18:57:54,039 - ***** Evaluation results *****
+2022-11-09 18:57:54,039 -   acc = 0.8876
+2022-11-09 18:57:54,040 -   f1 = 0.8868
+2022-11-09 18:57:54,040 -   prec = 0.8856
+2022-11-09 18:57:54,040 -   rec = 0.8893
+2022-11-09 18:57:54,040 - Testing is finished...
+2022-11-09 18:57:54,040 - Multimodal intent recognition is finished...
+2022-11-09 18:57:54,040 - Results are saved in results\baseline_bert_bi.csv

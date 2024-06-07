@@ -1,0 +1,126 @@
+2022-11-03 21:54:32,330 - ============================== Params ==============================
+2022-11-03 21:54:32,330 - logger_name: misa_MIntRec_multi-class_2022-11-03-21-54-32
+2022-11-03 21:54:32,330 - dataset: MIntRec
+2022-11-03 21:54:32,330 - data_mode: multi-class
+2022-11-03 21:54:32,330 - method: misa
+2022-11-03 21:54:32,330 - text_backbone: bert-base-uncased
+2022-11-03 21:54:32,330 - seed: 0
+2022-11-03 21:54:32,330 - num_workers: 0
+2022-11-03 21:54:32,330 - gpu_id: 0
+2022-11-03 21:54:32,330 - data_path: MIA-datasets
+2022-11-03 21:54:32,330 - train: True
+2022-11-03 21:54:32,330 - tune: False
+2022-11-03 21:54:32,330 - save_model: True
+2022-11-03 21:54:32,331 - save_results: True
+2022-11-03 21:54:32,331 - log_path: logs
+2022-11-03 21:54:32,331 - cache_path: cache
+2022-11-03 21:54:32,331 - video_data_path: video_data
+2022-11-03 21:54:32,331 - audio_data_path: audio_data
+2022-11-03 21:54:32,331 - video_feats_path: video_feats.pkl
+2022-11-03 21:54:32,331 - audio_feats_path: audio_feats.pkl
+2022-11-03 21:54:32,331 - results_path: results
+2022-11-03 21:54:32,331 - output_path: outputs
+2022-11-03 21:54:32,331 - model_path: models
+2022-11-03 21:54:32,331 - config_file_name: misa_bert
+2022-11-03 21:54:32,331 - results_file_name: misa_bert.csv
+2022-11-03 21:54:32,331 - padding_mode: zero
+2022-11-03 21:54:32,331 - padding_loc: end
+2022-11-03 21:54:32,331 - need_aligned: False
+2022-11-03 21:54:32,331 - eval_monitor: f1
+2022-11-03 21:54:32,331 - train_batch_size: 6
+2022-11-03 21:54:32,331 - eval_batch_size: 6
+2022-11-03 21:54:32,331 - test_batch_size: 4
+2022-11-03 21:54:32,331 - wait_patience: 4
+2022-11-03 21:54:32,331 - num_train_epochs: 100
+2022-11-03 21:54:32,331 - rnncell: lstm
+2022-11-03 21:54:32,331 - use_cmd_sim: False
+2022-11-03 21:54:32,331 - reverse_grad_weight: 0.8
+2022-11-03 21:54:32,331 - hidden_size: 256
+2022-11-03 21:54:32,331 - dropout_rate: 0.1
+2022-11-03 21:54:32,331 - diff_weight: 0.7
+2022-11-03 21:54:32,331 - sim_weight: 0.7
+2022-11-03 21:54:32,331 - recon_weight: 0.7
+2022-11-03 21:54:32,331 - lr: 3e-05
+2022-11-03 21:54:32,331 - grad_clip: -1.0
+2022-11-03 21:54:32,331 - gamma: 0.5
+2022-11-03 21:54:32,331 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'rnncell': 'lstm', 'use_cmd_sim': False, 'reverse_grad_weight': 0.8, 'hidden_size': 256, 'dropout_rate': 0.1, 'diff_weight': 0.7, 'sim_weight': 0.7, 'recon_weight': 0.7, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2022-11-03 21:54:32,331 - pred_output_path: outputs\misa_MIntRec_multi-class_2022-11-03-21-54-32
+2022-11-03 21:54:32,331 - model_output_path: outputs\misa_MIntRec_multi-class_2022-11-03-21-54-32\models
+2022-11-03 21:54:32,331 - ============================== End Params ==============================
+2022-11-03 21:54:32,335 - Generate Text Features Begin...
+2022-11-03 21:54:50,222 - Generate Text Features Finished...
+2022-11-03 21:54:50,223 - Load Video Features Begin...
+2022-11-03 21:54:50,636 - Load Video Features Finished...
+2022-11-03 21:54:51,038 - Load Audio Features Begin...
+2022-11-03 21:54:51,774 - Load Audio Features Finished...
+2022-11-03 21:55:09,450 - Multimodal intent recognition begins...
+2022-11-03 21:55:09,454 - Training begins...
+2022-11-03 21:55:46,465 - ***** Epoch: 1: Eval results *****
+2022-11-03 21:55:46,473 -   best_eval_score = 0.4044
+2022-11-03 21:55:46,473 -   eval_score = 0.4044
+2022-11-03 21:55:46,473 -   train_loss = 3.3521
+2022-11-03 21:56:17,648 - ***** Epoch: 2: Eval results *****
+2022-11-03 21:56:17,648 -   best_eval_score = 0.5882
+2022-11-03 21:56:17,648 -   eval_score = 0.5882
+2022-11-03 21:56:17,648 -   train_loss = 1.9608
+2022-11-03 21:56:48,340 - ***** Epoch: 3: Eval results *****
+2022-11-03 21:56:48,341 -   best_eval_score = 0.6242
+2022-11-03 21:56:48,341 -   eval_score = 0.6242
+2022-11-03 21:56:48,341 -   train_loss = 1.399
+2022-11-03 21:57:19,077 - ***** Epoch: 4: Eval results *****
+2022-11-03 21:57:19,085 -   best_eval_score = 0.6884
+2022-11-03 21:57:19,085 -   eval_score = 0.6884
+2022-11-03 21:57:19,085 -   train_loss = 1.1266
+2022-11-03 21:57:50,121 - EarlyStopping counter: 1 out of 4
+2022-11-03 21:57:50,121 - ***** Epoch: 5: Eval results *****
+2022-11-03 21:57:50,121 -   best_eval_score = 0.6884
+2022-11-03 21:57:50,121 -   eval_score = 0.6429
+2022-11-03 21:57:50,121 -   train_loss = 0.9844
+2022-11-03 21:58:25,576 - EarlyStopping counter: 2 out of 4
+2022-11-03 21:58:25,576 - ***** Epoch: 6: Eval results *****
+2022-11-03 21:58:25,576 -   best_eval_score = 0.6884
+2022-11-03 21:58:25,576 -   eval_score = 0.6812
+2022-11-03 21:58:25,576 -   train_loss = 0.8881
+2022-11-03 21:59:01,437 - EarlyStopping counter: 3 out of 4
+2022-11-03 21:59:01,438 - ***** Epoch: 7: Eval results *****
+2022-11-03 21:59:01,438 -   best_eval_score = 0.6884
+2022-11-03 21:59:01,438 -   eval_score = 0.6801
+2022-11-03 21:59:01,438 -   train_loss = 0.8553
+2022-11-03 21:59:34,997 - EarlyStopping counter: 4 out of 4
+2022-11-03 21:59:34,997 - ***** Epoch: 8: Eval results *****
+2022-11-03 21:59:34,997 -   best_eval_score = 0.6884
+2022-11-03 21:59:34,997 -   eval_score = 0.6868
+2022-11-03 21:59:34,997 -   train_loss = 0.8475
+2022-11-03 21:59:34,998 - EarlyStopping at epoch 8
+2022-11-03 21:59:34,998 - Trained models are saved in outputs\misa_MIntRec_multi-class_2022-11-03-21-54-32\models
+2022-11-03 21:59:35,733 - Training is finished...
+2022-11-03 21:59:35,733 - Testing begins...
+2022-11-03 21:59:38,171 - ***** Test: Confusion Matrix *****
+2022-11-03 21:59:38,176 - [[28  2  0  0  5  0  1  2  1  5  0  0 11  1  0  0  0  0  0  1]
+ [ 0 37  0  1  0  1  2  0  0  0  0  0  2  0  0  0  0  0  0  0]
+ [ 1  0 26  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0 25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 1  0  0  0 13  0  2  1  0  1  0  1  3  0  1  0  0  0  0  0]
+ [ 0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 2  0  0  0  1  0  2  1  1  1  0  0  1  0  0  2  0  0  0  1]
+ [ 3  0  0  0  0  0  0  5  0  1  0  0  1  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  4  1  0  0  0  1  1  0  2  0  0  0  1]
+ [ 1  0  0  0  0  0  1  0  0  5  1  0  0  0  0  1  0  1  0  0]
+ [ 1  0  0  0  0  1  0  0  0  3 12  0  0  0  0  0  0  1  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0 18  0  0  0  0  0  0  0  1]
+ [ 1  1  0  1  0  0  0  1  0  2  1  0 43  2  3  1  0  1  0  0]
+ [ 0  0  0  0  0  0  1  1  0  0  1  1  2 18  1  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  3  2 15  0  1  0  0  1]
+ [ 0  0  0  0  0  0  0  1  0  0  0  0  6  0  0 13  0  0  0  1]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  7  0  0  0 10  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  2  1  0  2  0  0  0  0 10  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0 11  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0  0  0  8]]
+2022-11-03 21:59:38,177 - ***** Evaluation results *****
+2022-11-03 21:59:38,177 -   acc = 0.7011
+2022-11-03 21:59:38,177 -   f1 = 0.6695
+2022-11-03 21:59:38,177 -   prec = 0.6892
+2022-11-03 21:59:38,177 -   rec = 0.6754
+2022-11-03 21:59:38,179 - Testing is finished...
+2022-11-03 21:59:38,179 - Multimodal intent recognition is finished...
+2022-11-03 21:59:38,179 - Results are saved in results\misa_bert.csv

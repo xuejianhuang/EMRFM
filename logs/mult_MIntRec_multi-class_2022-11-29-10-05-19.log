@@ -1,0 +1,58 @@
+2022-11-29 10:05:19,551 - ============================== Params ==============================
+2022-11-29 10:05:19,551 - logger_name: mult_MIntRec_multi-class_2022-11-29-10-05-19
+2022-11-29 10:05:19,551 - dataset: MIntRec
+2022-11-29 10:05:19,551 - data_mode: multi-class
+2022-11-29 10:05:19,551 - method: mult
+2022-11-29 10:05:19,551 - text_backbone: bert-base-uncased
+2022-11-29 10:05:19,551 - seed: 0
+2022-11-29 10:05:19,551 - num_workers: 0
+2022-11-29 10:05:19,551 - gpu_id: 0
+2022-11-29 10:05:19,551 - data_path: MIA-datasets
+2022-11-29 10:05:19,551 - train: True
+2022-11-29 10:05:19,551 - tune: False
+2022-11-29 10:05:19,551 - save_model: True
+2022-11-29 10:05:19,551 - save_results: True
+2022-11-29 10:05:19,551 - log_path: logs
+2022-11-29 10:05:19,551 - cache_path: cache
+2022-11-29 10:05:19,551 - video_data_path: video_data
+2022-11-29 10:05:19,551 - audio_data_path: audio_data
+2022-11-29 10:05:19,551 - video_feats_path: video_feats.pkl
+2022-11-29 10:05:19,551 - audio_feats_path: audio_feats.pkl
+2022-11-29 10:05:19,551 - results_path: results
+2022-11-29 10:05:19,551 - output_path: outputs
+2022-11-29 10:05:19,551 - model_path: models
+2022-11-29 10:05:19,551 - config_file_name: mult_bert
+2022-11-29 10:05:19,551 - results_file_name: mult_bert.csv
+2022-11-29 10:05:19,551 - padding_mode: zero
+2022-11-29 10:05:19,551 - padding_loc: end
+2022-11-29 10:05:19,551 - need_aligned: False
+2022-11-29 10:05:19,551 - eval_monitor: f1
+2022-11-29 10:05:19,551 - train_batch_size: 6
+2022-11-29 10:05:19,551 - eval_batch_size: 6
+2022-11-29 10:05:19,551 - test_batch_size: 4
+2022-11-29 10:05:19,551 - wait_patience: 4
+2022-11-29 10:05:19,551 - num_train_epochs: 100
+2022-11-29 10:05:19,551 - dst_feature_dims: 120
+2022-11-29 10:05:19,551 - nheads: 1
+2022-11-29 10:05:19,551 - n_levels: 2
+2022-11-29 10:05:19,551 - attn_dropout: 0.1
+2022-11-29 10:05:19,551 - attn_dropout_v: 0.1
+2022-11-29 10:05:19,551 - attn_dropout_a: 0.1
+2022-11-29 10:05:19,551 - relu_dropout: 0.0
+2022-11-29 10:05:19,567 - embed_dropout: 0.1
+2022-11-29 10:05:19,567 - res_dropout: 0.1
+2022-11-29 10:05:19,567 - output_dropout: 0.1
+2022-11-29 10:05:19,567 - text_dropout: 0.1
+2022-11-29 10:05:19,567 - grad_clip: 0.5
+2022-11-29 10:05:19,567 - attn_mask: True
+2022-11-29 10:05:19,567 - conv1d_kernel_size_l: 5
+2022-11-29 10:05:19,567 - conv1d_kernel_size_v: 1
+2022-11-29 10:05:19,567 - conv1d_kernel_size_a: 1
+2022-11-29 10:05:19,567 - lr: 3e-05
+2022-11-29 10:05:19,567 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'dst_feature_dims': 120, 'nheads': 1, 'n_levels': 2, 'attn_dropout': 0.1, 'attn_dropout_v': 0.1, 'attn_dropout_a': 0.1, 'relu_dropout': 0.0, 'embed_dropout': 0.1, 'res_dropout': 0.1, 'output_dropout': 0.1, 'text_dropout': 0.1, 'grad_clip': 0.5, 'attn_mask': True, 'conv1d_kernel_size_l': 5, 'conv1d_kernel_size_v': 1, 'conv1d_kernel_size_a': 1, 'lr': 3e-05}}
+2022-11-29 10:05:19,567 - pred_output_path: outputs\mult_MIntRec_multi-class_2022-11-29-10-05-19
+2022-11-29 10:05:19,567 - model_output_path: outputs\mult_MIntRec_multi-class_2022-11-29-10-05-19\models
+2022-11-29 10:05:19,567 - ============================== End Params ==============================
+2022-11-29 10:05:19,567 - Generate Text Features Begin...
+2022-11-29 10:05:36,216 - Generate Text Features Finished...
+2022-11-29 10:05:36,216 - Load Video Features Begin...

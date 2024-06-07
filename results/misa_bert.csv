@@ -1,0 +1,30 @@
+acc,f1,prec,rec,eval_f1,dataset,method,text_backbone,seed,logger_name
+71.91,68.6,68.61,69.48,0.6785,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-01-21-48-15 拼接后在经过transform处理
+68.31,65.03,66.13,65.53,0.6906,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-14-23-18 直接拼接
+71.69,67.67,71.54,66.25,0.677,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-14-35-28 拼接后在经过transform处理
+69.89,64.26,66.8,63.87,0.6834,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-14-53-20 先分组在经过同一个transform处理后在拼接
+70.34,67.42,68.41,67.78,0.6971,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-15-01-58 先分组在经过3一个不同的transform处理后在拼接
+71.46,68.53,69.07,68.68,0.6759999999999999,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-15-32-47 本文初步想法拼接
+72.58,70.46,71.9,70.45,0.6816,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-15-43-05 本文初步想法相加seed=0最后分类层hiddensize=256*3
+71.01,67.79,68.4,67.81,0.7,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-18-32-34  本文初步想法相加seed=0最后分类层hiddensize=256*2
+69.21,66.74,68.27,66.24,0.6806,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-18-43-37  本文初步想法相加seed=0最后分类层hiddensize=256*4
+71.01,68.6,70.61,67.69,0.6851,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-19-33-04   三个loss权重0.3 0.3 0.4
+70.11,66.85,67.21,67.48,0.685,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-02-20-03-00   三个loss权重0.8 0.8 0.4
+69.66,65.64,68.32,64.28,,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-03-18-43-25    不加特征学习的3个loss
+73.93,71.73,71.65,72.48,0.7061,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-03-19-12-38 原始代码不用cmd 三个loss权重0.7 0.7 0.7
+70.56,65.61,67.49,65.84,0.6892,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-03-19-53-48 原始代码用cmd 三个loss权重0.7 0.7 0.7
+71.91,68.92,69.98,68.91,0.6904,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-03-23-00-29 原始代码不用cmd 三个loss权重0.7 0.7 0.6
+72.58,69.1,70.46,69.61,0.688,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-03-23-07-36 原始代码用cmd 三个loss权重0.7 0.7 0.6
+71.91,68.92,69.98,68.91,0.6904,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-09-16-09-27 100%
+54.83,45.58,53.91,45.23,0.4281,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-14-57-03 10%
+64.72,55.97,63.95,54.97,0.5416,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-15-08-14 20%
+63.82,58.91,61.86,58.54,0.6481,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-15-14-50 30%
+68.31,62.78,65.64,61.74,0.6573,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-15-19-05 40%
+69.66,66.92,69.23,65.87,0.6751,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-15-23-47 50%
+70.11,66.91,70.1,65.2,0.6855,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-15-29-11 60%
+71.91,67.95,69.97,67.24,0.6923,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-16-01-49 70%
+69.44,65.66,66.7,65.68,0.6752,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-16-49-32  80%
+68.09,65.7,67.86,65.01,0.6847,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-18-17-04-05  90%
+71.91,68.92,69.98,68.91,0.6904,,,,,
+71.91,66.88,71.54,66.86,0.6929,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-29-10-48-48  noise 2
+71.69,66.72,70.75,66.22,0.688,MIntRec,misa,bert-base-uncased,0.0,misa_MIntRec_multi-class_2022-11-29-11-19-57  noise 1

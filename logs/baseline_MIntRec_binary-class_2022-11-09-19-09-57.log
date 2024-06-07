@@ -1,0 +1,108 @@
+2022-11-09 19:09:57,163 - ============================== Params ==============================
+2022-11-09 19:09:57,163 - logger_name: baseline_MIntRec_binary-class_2022-11-09-19-09-57
+2022-11-09 19:09:57,163 - dataset: MIntRec
+2022-11-09 19:09:57,163 - data_mode: binary-class
+2022-11-09 19:09:57,163 - method: baseline
+2022-11-09 19:09:57,163 - text_backbone: bert-base-uncased
+2022-11-09 19:09:57,163 - seed: 0
+2022-11-09 19:09:57,163 - num_workers: 0
+2022-11-09 19:09:57,163 - gpu_id: 0
+2022-11-09 19:09:57,163 - data_path: MIA-datasets
+2022-11-09 19:09:57,163 - train: True
+2022-11-09 19:09:57,163 - tune: False
+2022-11-09 19:09:57,163 - save_model: True
+2022-11-09 19:09:57,164 - save_results: True
+2022-11-09 19:09:57,164 - log_path: logs
+2022-11-09 19:09:57,164 - cache_path: cache
+2022-11-09 19:09:57,164 - video_data_path: video_data
+2022-11-09 19:09:57,164 - audio_data_path: audio_data
+2022-11-09 19:09:57,164 - video_feats_path: video_feats.pkl
+2022-11-09 19:09:57,164 - audio_feats_path: audio_feats.pkl
+2022-11-09 19:09:57,164 - results_path: results
+2022-11-09 19:09:57,164 - output_path: outputs
+2022-11-09 19:09:57,164 - model_path: models
+2022-11-09 19:09:57,164 - config_file_name: baseline_bert_bi
+2022-11-09 19:09:57,164 - results_file_name: baseline_bert_bi.csv
+2022-11-09 19:09:57,164 - padding_mode: zero
+2022-11-09 19:09:57,164 - padding_loc: end
+2022-11-09 19:09:57,164 - need_aligned: False
+2022-11-09 19:09:57,164 - eval_monitor: f1
+2022-11-09 19:09:57,164 - train_batch_size: 6
+2022-11-09 19:09:57,164 - eval_batch_size: 6
+2022-11-09 19:09:57,164 - test_batch_size: 4
+2022-11-09 19:09:57,164 - wait_patience: 4
+2022-11-09 19:09:57,164 - num_train_epochs: 100
+2022-11-09 19:09:57,164 - hidden_size: 256
+2022-11-09 19:09:57,164 - dropout_rate: 0
+2022-11-09 19:09:57,164 - lr: 3e-05
+2022-11-09 19:09:57,164 - grad_clip: -1.0
+2022-11-09 19:09:57,164 - gamma: 0.5
+2022-11-09 19:09:57,164 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'hidden_size': 256, 'dropout_rate': 0, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2022-11-09 19:09:57,164 - pred_output_path: outputs\baseline_MIntRec_binary-class_2022-11-09-19-09-57
+2022-11-09 19:09:57,164 - model_output_path: outputs\baseline_MIntRec_binary-class_2022-11-09-19-09-57\models
+2022-11-09 19:09:57,164 - ============================== End Params ==============================
+2022-11-09 19:09:57,168 - Generate Text Features Begin...
+2022-11-09 19:10:13,809 - Generate Text Features Finished...
+2022-11-09 19:10:13,816 - Load Video Features Begin...
+2022-11-09 19:10:14,221 - Load Video Features Finished...
+2022-11-09 19:10:14,621 - Load Audio Features Begin...
+2022-11-09 19:10:15,360 - Load Audio Features Finished...
+2022-11-09 19:10:34,280 - Multimodal intent recognition begins...
+2022-11-09 19:10:34,284 - Training begins...
+2022-11-09 19:10:50,892 - ***** Epoch: 1: Eval results *****
+2022-11-09 19:10:50,901 -   best_eval_score = 0.4302
+2022-11-09 19:10:50,901 -   eval_score = 0.4302
+2022-11-09 19:10:50,901 -   train_loss = 0.7041
+2022-11-09 19:11:02,855 - ***** Epoch: 2: Eval results *****
+2022-11-09 19:11:02,855 -   best_eval_score = 0.5658
+2022-11-09 19:11:02,855 -   eval_score = 0.5658
+2022-11-09 19:11:02,855 -   train_loss = 0.6804
+2022-11-09 19:11:14,751 - EarlyStopping counter: 1 out of 4
+2022-11-09 19:11:14,751 - ***** Epoch: 3: Eval results *****
+2022-11-09 19:11:14,751 -   best_eval_score = 0.5658
+2022-11-09 19:11:14,751 -   eval_score = 0.4289
+2022-11-09 19:11:14,751 -   train_loss = 0.6735
+2022-11-09 19:11:26,666 - EarlyStopping counter: 2 out of 4
+2022-11-09 19:11:26,666 - ***** Epoch: 4: Eval results *****
+2022-11-09 19:11:26,666 -   best_eval_score = 0.5658
+2022-11-09 19:11:26,666 -   eval_score = 0.5339
+2022-11-09 19:11:26,666 -   train_loss = 0.6551
+2022-11-09 19:11:38,501 - ***** Epoch: 5: Eval results *****
+2022-11-09 19:11:38,503 -   best_eval_score = 0.6019
+2022-11-09 19:11:38,503 -   eval_score = 0.6019
+2022-11-09 19:11:38,503 -   train_loss = 0.6461
+2022-11-09 19:11:50,270 - EarlyStopping counter: 1 out of 4
+2022-11-09 19:11:50,270 - ***** Epoch: 6: Eval results *****
+2022-11-09 19:11:50,270 -   best_eval_score = 0.6019
+2022-11-09 19:11:50,270 -   eval_score = 0.5888
+2022-11-09 19:11:50,270 -   train_loss = 0.6413
+2022-11-09 19:12:02,134 - EarlyStopping counter: 2 out of 4
+2022-11-09 19:12:02,134 - ***** Epoch: 7: Eval results *****
+2022-11-09 19:12:02,134 -   best_eval_score = 0.6019
+2022-11-09 19:12:02,134 -   eval_score = 0.5926
+2022-11-09 19:12:02,134 -   train_loss = 0.6348
+2022-11-09 19:12:13,948 - EarlyStopping counter: 3 out of 4
+2022-11-09 19:12:13,948 - ***** Epoch: 8: Eval results *****
+2022-11-09 19:12:13,949 -   best_eval_score = 0.6019
+2022-11-09 19:12:13,949 -   eval_score = 0.5962
+2022-11-09 19:12:13,949 -   train_loss = 0.6271
+2022-11-09 19:12:25,846 - EarlyStopping counter: 4 out of 4
+2022-11-09 19:12:25,846 - ***** Epoch: 9: Eval results *****
+2022-11-09 19:12:25,847 -   best_eval_score = 0.6019
+2022-11-09 19:12:25,847 -   eval_score = 0.5934
+2022-11-09 19:12:25,847 -   train_loss = 0.6245
+2022-11-09 19:12:25,847 - EarlyStopping at epoch 9
+2022-11-09 19:12:25,847 - Trained models are saved in outputs\baseline_MIntRec_binary-class_2022-11-09-19-09-57\models
+2022-11-09 19:12:26,566 - Training is finished...
+2022-11-09 19:12:26,566 - Testing begins...
+2022-11-09 19:12:28,598 - ***** Test: Confusion Matrix *****
+2022-11-09 19:12:28,600 - [[178  70]
+ [106  91]]
+2022-11-09 19:12:28,601 - ***** Evaluation results *****
+2022-11-09 19:12:28,601 -   acc = 0.6045
+2022-11-09 19:12:28,601 -   f1 = 0.5888
+2022-11-09 19:12:28,601 -   prec = 0.596
+2022-11-09 19:12:28,601 -   rec = 0.5898
+2022-11-09 19:12:28,601 - Testing is finished...
+2022-11-09 19:12:28,601 - Multimodal intent recognition is finished...
+2022-11-09 19:12:28,601 - Results are saved in results\baseline_bert_bi.csv

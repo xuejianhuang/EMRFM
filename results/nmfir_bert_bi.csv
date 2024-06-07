@@ -1,0 +1,10 @@
+acc,f1,prec,rec,eval_f1,dataset,method,text_backbone,seed,logger_name
+86.74,86.67,86.61,87.06,0.9025,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-15-58-13 d:0   0.6 0.6 0.7   lr:2e-05 gamma:0.3
+87.19,87.03,87.01,87.05,0.9106,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-16-09-53 d:0.1 0.7 0.7 0.6   lr:2e-05 gamma:0.5
+84.94,84.78,84.71,84.87,0.9021,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-16-52-22 d:0.2 0.7 0.7 0.6   lr:2e-05 gamma:0.5
+87.87,87.74,87.65,87.86,0.9133,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-17-02-05 d:0   0.7 0.7 0.6   lr:2e-05 gamma:0.3
+88.54,88.35,88.48,88.26,0.913,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-17-17-59  d:0   0.3 0.3 0.4   lr:2e-05 gamma:0.3
+88.09,87.98,87.87,88.17,0.8909,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-17-25-17 d:0   0.2 0.2 0.2   lr:2e-05 gamma:0.3
+88.99,88.87,88.79,88.97,0.8924,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-17-35-42 d:0   0.25 0.25 0.5 lr:2e-05 gamma:0.3
+88.09,87.96,87.88,88.06,0.9135,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-17-48-45 d:0   0.2 0.2 0.6   lr:2e-05 gamma:0.3
+88.76,88.65,88.56,88.77,0.9226,MIntRec,nmfir,bert-base-uncased,0,nmfir_MIntRec_binary-class_2022-11-05-19-42-27 d:0   0.25 0.25 0.4 lr:2e-05 gamma:0.3

@@ -1,0 +1,11 @@
+acc,f1,prec,rec,eval_f1,dataset,method,text_backbone,seed,logger_name
+71.01,66.09,68.15,65.83,0.6814,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-09-16-41-04 100%
+58.2,46.06,53.86,47.77,0.4732,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-17-16-39  10%
+64.49,55.16,60.84,55.44,0.5691,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-17-22-00 20%
+69.44,64.26,66.22,64.22,0.6569,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-17-28-34 30%
+70.79,64.9,67.05,64.44,0.6546,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-18-10-24 40%
+69.44,63.31,69.45,63.28,0.6501,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-18-16-56 50%
+70.56,65.82,68.22,65.4,0.6711,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-18-28-08 60%
+69.44,65.07,67.87,64.3,0.6724,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-18-44-36 70%
+68.54,63.4,62.76,65.63,0.6698,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-18-52-05 80%
+68.09,63.68,63.79,65.13,0.6979,MIntRec,mag_bert,bert-base-uncased,0,mag_bert_MIntRec_multi-class_2022-11-18-17-35-00 90%

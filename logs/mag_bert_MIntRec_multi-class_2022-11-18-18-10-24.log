@@ -1,0 +1,184 @@
+2022-11-18 18:10:24,177 - ============================== Params ==============================
+2022-11-18 18:10:24,177 - logger_name: mag_bert_MIntRec_multi-class_2022-11-18-18-10-24
+2022-11-18 18:10:24,177 - dataset: MIntRec
+2022-11-18 18:10:24,177 - data_mode: multi-class
+2022-11-18 18:10:24,177 - method: mag_bert
+2022-11-18 18:10:24,177 - text_backbone: bert-base-uncased
+2022-11-18 18:10:24,177 - seed: 0
+2022-11-18 18:10:24,177 - num_workers: 0
+2022-11-18 18:10:24,177 - gpu_id: 0
+2022-11-18 18:10:24,177 - data_path: MIA-datasets
+2022-11-18 18:10:24,177 - train: True
+2022-11-18 18:10:24,177 - tune: False
+2022-11-18 18:10:24,177 - save_model: True
+2022-11-18 18:10:24,177 - save_results: True
+2022-11-18 18:10:24,177 - log_path: logs
+2022-11-18 18:10:24,177 - cache_path: cache
+2022-11-18 18:10:24,177 - video_data_path: video_data
+2022-11-18 18:10:24,177 - audio_data_path: audio_data
+2022-11-18 18:10:24,177 - video_feats_path: video_feats.pkl
+2022-11-18 18:10:24,177 - audio_feats_path: audio_feats.pkl
+2022-11-18 18:10:24,177 - results_path: results
+2022-11-18 18:10:24,177 - output_path: outputs
+2022-11-18 18:10:24,177 - model_path: models
+2022-11-18 18:10:24,178 - config_file_name: mag_bert
+2022-11-18 18:10:24,178 - results_file_name: mag_bert.csv
+2022-11-18 18:10:24,178 - padding_mode: zero
+2022-11-18 18:10:24,178 - padding_loc: end
+2022-11-18 18:10:24,178 - need_aligned: True
+2022-11-18 18:10:24,178 - eval_monitor: f1
+2022-11-18 18:10:24,178 - train_batch_size: 6
+2022-11-18 18:10:24,178 - eval_batch_size: 6
+2022-11-18 18:10:24,178 - test_batch_size: 4
+2022-11-18 18:10:24,178 - wait_patience: 4
+2022-11-18 18:10:24,178 - num_train_epochs: 100
+2022-11-18 18:10:24,178 - beta_shift: 0.005
+2022-11-18 18:10:24,178 - dropout_prob: 0.5
+2022-11-18 18:10:24,178 - warmup_proportion: 0.1
+2022-11-18 18:10:24,178 - lr: 2e-05
+2022-11-18 18:10:24,178 - aligned_method: ctc
+2022-11-18 18:10:24,178 - weight_decay: 0.03
+2022-11-18 18:10:24,178 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': True, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'beta_shift': 0.005, 'dropout_prob': 0.5, 'warmup_proportion': 0.1, 'lr': 2e-05, 'aligned_method': 'ctc', 'weight_decay': 0.03}}
+2022-11-18 18:10:24,178 - pred_output_path: outputs\mag_bert_MIntRec_multi-class_2022-11-18-18-10-24
+2022-11-18 18:10:24,178 - model_output_path: outputs\mag_bert_MIntRec_multi-class_2022-11-18-18-10-24\models
+2022-11-18 18:10:24,178 - ============================== End Params ==============================
+2022-11-18 18:10:24,181 - Generate Text Features Begin...
+2022-11-18 18:10:40,528 - Generate Text Features Finished...
+2022-11-18 18:10:40,528 - Load Video Features Begin...
+2022-11-18 18:10:40,908 - Load Video Features Finished...
+2022-11-18 18:10:41,265 - Load Audio Features Begin...
+2022-11-18 18:10:41,951 - Load Audio Features Finished...
+2022-11-18 18:10:58,378 - Multimodal intent recognition begins...
+2022-11-18 18:10:58,381 - Training begins...
+2022-11-18 18:11:10,937 - ***** Epoch: 1: Eval results *****
+2022-11-18 18:11:10,946 -   train_loss = 2.9311
+2022-11-18 18:11:10,946 -   best_eval_score = 0.0
+2022-11-18 18:11:10,946 -   eval_score = 0.0099
+2022-11-18 18:11:22,216 - ***** Epoch: 2: Eval results *****
+2022-11-18 18:11:22,216 -   train_loss = 2.8888
+2022-11-18 18:11:22,216 -   best_eval_score = 0.0099
+2022-11-18 18:11:22,216 -   eval_score = 0.0135
+2022-11-18 18:11:33,434 - ***** Epoch: 3: Eval results *****
+2022-11-18 18:11:33,434 -   train_loss = 2.7984
+2022-11-18 18:11:33,434 -   best_eval_score = 0.0135
+2022-11-18 18:11:33,434 -   eval_score = 0.0337
+2022-11-18 18:11:44,356 - ***** Epoch: 4: Eval results *****
+2022-11-18 18:11:44,356 -   train_loss = 2.6338
+2022-11-18 18:11:44,356 -   best_eval_score = 0.0337
+2022-11-18 18:11:44,356 -   eval_score = 0.2163
+2022-11-18 18:11:55,311 - ***** Epoch: 5: Eval results *****
+2022-11-18 18:11:55,311 -   train_loss = 2.3995
+2022-11-18 18:11:55,311 -   best_eval_score = 0.2163
+2022-11-18 18:11:55,311 -   eval_score = 0.234
+2022-11-18 18:12:06,001 - ***** Epoch: 6: Eval results *****
+2022-11-18 18:12:06,001 -   train_loss = 2.1171
+2022-11-18 18:12:06,001 -   best_eval_score = 0.234
+2022-11-18 18:12:06,001 -   eval_score = 0.2559
+2022-11-18 18:12:16,913 - ***** Epoch: 7: Eval results *****
+2022-11-18 18:12:16,913 -   train_loss = 1.8464
+2022-11-18 18:12:16,913 -   best_eval_score = 0.2559
+2022-11-18 18:12:16,913 -   eval_score = 0.3087
+2022-11-18 18:12:27,858 - ***** Epoch: 8: Eval results *****
+2022-11-18 18:12:27,858 -   train_loss = 1.5909
+2022-11-18 18:12:27,858 -   best_eval_score = 0.3087
+2022-11-18 18:12:27,858 -   eval_score = 0.3562
+2022-11-18 18:12:38,818 - ***** Epoch: 9: Eval results *****
+2022-11-18 18:12:38,818 -   train_loss = 1.3885
+2022-11-18 18:12:38,818 -   best_eval_score = 0.3562
+2022-11-18 18:12:38,818 -   eval_score = 0.4439
+2022-11-18 18:12:49,474 - ***** Epoch: 10: Eval results *****
+2022-11-18 18:12:49,474 -   train_loss = 1.1985
+2022-11-18 18:12:49,474 -   best_eval_score = 0.4439
+2022-11-18 18:12:49,474 -   eval_score = 0.4822
+2022-11-18 18:13:00,341 - ***** Epoch: 11: Eval results *****
+2022-11-18 18:13:00,341 -   train_loss = 1.0332
+2022-11-18 18:13:00,341 -   best_eval_score = 0.4822
+2022-11-18 18:13:00,341 -   eval_score = 0.5422
+2022-11-18 18:13:12,091 - ***** Epoch: 12: Eval results *****
+2022-11-18 18:13:12,091 -   train_loss = 0.8662
+2022-11-18 18:13:12,091 -   best_eval_score = 0.5422
+2022-11-18 18:13:12,091 -   eval_score = 0.5569
+2022-11-18 18:13:24,107 - ***** Epoch: 13: Eval results *****
+2022-11-18 18:13:24,107 -   train_loss = 0.7165
+2022-11-18 18:13:24,107 -   best_eval_score = 0.5569
+2022-11-18 18:13:24,107 -   eval_score = 0.5985
+2022-11-18 18:13:35,388 - ***** Epoch: 14: Eval results *****
+2022-11-18 18:13:35,388 -   train_loss = 0.5614
+2022-11-18 18:13:35,388 -   best_eval_score = 0.5985
+2022-11-18 18:13:35,388 -   eval_score = 0.5739
+2022-11-18 18:13:35,388 - EarlyStopping counter: 1 out of 4
+2022-11-18 18:13:46,208 - ***** Epoch: 15: Eval results *****
+2022-11-18 18:13:46,208 -   train_loss = 0.4803
+2022-11-18 18:13:46,208 -   best_eval_score = 0.5985
+2022-11-18 18:13:46,208 -   eval_score = 0.6043
+2022-11-18 18:13:56,972 - ***** Epoch: 16: Eval results *****
+2022-11-18 18:13:56,972 -   train_loss = 0.3892
+2022-11-18 18:13:56,972 -   best_eval_score = 0.6043
+2022-11-18 18:13:56,972 -   eval_score = 0.6292
+2022-11-18 18:14:07,894 - ***** Epoch: 17: Eval results *****
+2022-11-18 18:14:07,894 -   train_loss = 0.3124
+2022-11-18 18:14:07,894 -   best_eval_score = 0.6292
+2022-11-18 18:14:07,894 -   eval_score = 0.5975
+2022-11-18 18:14:07,894 - EarlyStopping counter: 1 out of 4
+2022-11-18 18:14:19,222 - ***** Epoch: 18: Eval results *****
+2022-11-18 18:14:19,222 -   train_loss = 0.2254
+2022-11-18 18:14:19,222 -   best_eval_score = 0.6292
+2022-11-18 18:14:19,222 -   eval_score = 0.6288
+2022-11-18 18:14:19,222 - EarlyStopping counter: 2 out of 4
+2022-11-18 18:14:30,206 - ***** Epoch: 19: Eval results *****
+2022-11-18 18:14:30,206 -   train_loss = 0.1623
+2022-11-18 18:14:30,206 -   best_eval_score = 0.6292
+2022-11-18 18:14:30,206 -   eval_score = 0.6546
+2022-11-18 18:14:40,884 - ***** Epoch: 20: Eval results *****
+2022-11-18 18:14:40,884 -   train_loss = 0.1429
+2022-11-18 18:14:40,884 -   best_eval_score = 0.6546
+2022-11-18 18:14:40,884 -   eval_score = 0.5918
+2022-11-18 18:14:40,884 - EarlyStopping counter: 1 out of 4
+2022-11-18 18:14:51,444 - ***** Epoch: 21: Eval results *****
+2022-11-18 18:14:51,444 -   train_loss = 0.1151
+2022-11-18 18:14:51,444 -   best_eval_score = 0.6546
+2022-11-18 18:14:51,444 -   eval_score = 0.627
+2022-11-18 18:14:51,444 - EarlyStopping counter: 2 out of 4
+2022-11-18 18:15:02,231 - ***** Epoch: 22: Eval results *****
+2022-11-18 18:15:02,231 -   train_loss = 0.0987
+2022-11-18 18:15:02,231 -   best_eval_score = 0.6546
+2022-11-18 18:15:02,231 -   eval_score = 0.6362
+2022-11-18 18:15:02,231 - EarlyStopping counter: 3 out of 4
+2022-11-18 18:15:13,142 - ***** Epoch: 23: Eval results *****
+2022-11-18 18:15:13,142 -   train_loss = 0.1248
+2022-11-18 18:15:13,142 -   best_eval_score = 0.6546
+2022-11-18 18:15:13,142 -   eval_score = 0.6206
+2022-11-18 18:15:13,142 - EarlyStopping counter: 4 out of 4
+2022-11-18 18:15:13,142 - EarlyStopping at epoch 23
+2022-11-18 18:15:13,142 - Trained models are saved in outputs\mag_bert_MIntRec_multi-class_2022-11-18-18-10-24\models
+2022-11-18 18:15:13,783 - Training is finished...
+2022-11-18 18:15:13,783 - Testing begins...
+2022-11-18 18:15:16,623 - ***** Test: Confusion Matrix *****
+2022-11-18 18:15:16,623 - [[38  1  0  0  5  0  0  2  2  3  1  0  3  2  0  0  0  0  0  0]
+ [ 0 39  0  1  0  0  0  0  0  0  1  0  2  0  0  0  0  0  0  0]
+ [ 1  0 26  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0 25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 4  0  0  0 13  0  0  0  0  0  0  1  2  2  0  0  0  1  0  0]
+ [ 1  1  0  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 3  1  0  0  3  0  2  0  1  0  0  0  1  0  0  0  1  0  0  0]
+ [ 4  1  0  0  0  0  1  3  0  1  0  0  0  0  0  0  0  0  0  0]
+ [ 3  0  0  0  0  0  1  1  1  0  0  0  0  2  0  1  0  0  0  1]
+ [ 1  0  0  0  1  0  0  0  0  3  1  0  0  0  0  3  0  0  0  1]
+ [ 2  0  0  0  0  0  0  0  0  0 16  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0 17  1  0  0  0  0  0  0  1]
+ [ 3  2  0  1  0  0  0  1  1  1  0  0 38  3  5  1  0  0  1  0]
+ [ 1  0  0  0  0  0  1  0  0  0  1  1  0 20  1  0  0  0  0  0]
+ [ 0  0  1  0  0  0  0  0  0  0  0  0  1  1 17  0  1  0  0  1]
+ [ 0  1  0  0  0  0  0  0  1  0  0  0  4  0  1 14  0  0  0  0]
+ [ 0  0  0  1  0  0  0  0  0  0  0  0  2  0  3  0 11  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  2  0  0  3  1  0  0  9  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  2  0  0  1  0  0  9  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  2  0  1  1  0  2  0  0  4]]
+2022-11-18 18:15:16,623 - ***** Evaluation results *****
+2022-11-18 18:15:16,623 -   acc = 0.7079
+2022-11-18 18:15:16,623 -   f1 = 0.649
+2022-11-18 18:15:16,623 -   prec = 0.6705
+2022-11-18 18:15:16,623 -   rec = 0.6444
+2022-11-18 18:15:16,623 - Testing is finished...
+2022-11-18 18:15:16,623 - Multimodal intent recognition is finished...
+2022-11-18 18:15:16,623 - Results are saved in results\mag_bert.csv

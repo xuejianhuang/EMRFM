@@ -1,0 +1,49 @@
+2023-03-13 19:36:45,963 - ============================== Params ==============================
+2023-03-13 19:36:45,963 - logger_name: nmfir_MIntRec_multi-class_2023-03-13-19-36-45
+2023-03-13 19:36:45,963 - dataset: MIntRec
+2023-03-13 19:36:45,963 - data_mode: multi-class
+2023-03-13 19:36:45,963 - method: nmfir
+2023-03-13 19:36:45,963 - text_backbone: bert-base-uncased
+2023-03-13 19:36:45,963 - seed: 0
+2023-03-13 19:36:45,963 - num_workers: 0
+2023-03-13 19:36:45,963 - gpu_id: 0
+2023-03-13 19:36:45,963 - data_path: MIA-datasets
+2023-03-13 19:36:45,963 - train: True
+2023-03-13 19:36:45,964 - tune: False
+2023-03-13 19:36:45,964 - save_model: True
+2023-03-13 19:36:45,964 - save_results: True
+2023-03-13 19:36:45,964 - log_path: logs
+2023-03-13 19:36:45,964 - cache_path: cache
+2023-03-13 19:36:45,964 - video_data_path: video_data
+2023-03-13 19:36:45,964 - audio_data_path: audio_data
+2023-03-13 19:36:45,964 - video_feats_path: video_feats.pkl
+2023-03-13 19:36:45,964 - audio_feats_path: audio_feats.pkl
+2023-03-13 19:36:45,964 - results_path: results
+2023-03-13 19:36:45,964 - output_path: outputs
+2023-03-13 19:36:45,964 - model_path: models
+2023-03-13 19:36:45,964 - config_file_name: nmfir_bert
+2023-03-13 19:36:45,964 - results_file_name: nmfir_bert.csv
+2023-03-13 19:36:45,964 - padding_mode: zero
+2023-03-13 19:36:45,964 - padding_loc: end
+2023-03-13 19:36:45,964 - need_aligned: False
+2023-03-13 19:36:45,964 - eval_monitor: f1
+2023-03-13 19:36:45,964 - train_batch_size: 6
+2023-03-13 19:36:45,964 - eval_batch_size: 6
+2023-03-13 19:36:45,964 - test_batch_size: 4
+2023-03-13 19:36:45,964 - wait_patience: 4
+2023-03-13 19:36:45,964 - num_train_epochs: 100
+2023-03-13 19:36:45,964 - use_cmd_sim: False
+2023-03-13 19:36:45,964 - reverse_grad_weight: 0.8
+2023-03-13 19:36:45,964 - hidden_size: 256
+2023-03-13 19:36:45,965 - dropout_rate: 0.1
+2023-03-13 19:36:45,965 - diff_weight: 0.7
+2023-03-13 19:36:45,965 - sim_weight: 0.7
+2023-03-13 19:36:45,965 - recon_weight: 0.6
+2023-03-13 19:36:45,965 - lr: 3e-05
+2023-03-13 19:36:45,965 - grad_clip: -1.0
+2023-03-13 19:36:45,965 - gamma: 0.5
+2023-03-13 19:36:45,965 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'use_cmd_sim': False, 'reverse_grad_weight': 0.8, 'hidden_size': 256, 'dropout_rate': 0.1, 'diff_weight': 0.7, 'sim_weight': 0.7, 'recon_weight': 0.6, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2023-03-13 19:36:45,965 - pred_output_path: outputs\nmfir_MIntRec_multi-class_2023-03-13-19-36-45
+2023-03-13 19:36:45,965 - model_output_path: outputs\nmfir_MIntRec_multi-class_2023-03-13-19-36-45\models
+2023-03-13 19:36:45,965 - ============================== End Params ==============================
+2023-03-13 19:36:45,979 - Generate Text Features Begin...

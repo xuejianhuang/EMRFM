@@ -1,0 +1,51 @@
+2022-11-05 22:23:00,002 - ============================== Params ==============================
+2022-11-05 22:23:00,003 - logger_name: baseline_MIntRec_multi-class_2022-11-05-22-23-00
+2022-11-05 22:23:00,003 - dataset: MIntRec
+2022-11-05 22:23:00,003 - data_mode: multi-class
+2022-11-05 22:23:00,003 - method: baseline
+2022-11-05 22:23:00,003 - text_backbone: bert-base-uncased
+2022-11-05 22:23:00,003 - seed: 0
+2022-11-05 22:23:00,003 - num_workers: 0
+2022-11-05 22:23:00,003 - gpu_id: 0
+2022-11-05 22:23:00,003 - data_path: MIA-datasets
+2022-11-05 22:23:00,003 - train: True
+2022-11-05 22:23:00,003 - tune: False
+2022-11-05 22:23:00,003 - save_model: True
+2022-11-05 22:23:00,003 - save_results: True
+2022-11-05 22:23:00,003 - log_path: logs
+2022-11-05 22:23:00,003 - cache_path: cache
+2022-11-05 22:23:00,003 - video_data_path: video_data
+2022-11-05 22:23:00,003 - audio_data_path: audio_data
+2022-11-05 22:23:00,003 - video_feats_path: video_feats.pkl
+2022-11-05 22:23:00,003 - audio_feats_path: audio_feats.pkl
+2022-11-05 22:23:00,003 - results_path: results
+2022-11-05 22:23:00,003 - output_path: outputs
+2022-11-05 22:23:00,003 - model_path: models
+2022-11-05 22:23:00,004 - config_file_name: baseline_bert
+2022-11-05 22:23:00,004 - results_file_name: baseline_bert.csv
+2022-11-05 22:23:00,004 - padding_mode: zero
+2022-11-05 22:23:00,004 - padding_loc: end
+2022-11-05 22:23:00,004 - need_aligned: False
+2022-11-05 22:23:00,004 - eval_monitor: f1
+2022-11-05 22:23:00,004 - train_batch_size: 6
+2022-11-05 22:23:00,004 - eval_batch_size: 6
+2022-11-05 22:23:00,004 - test_batch_size: 4
+2022-11-05 22:23:00,004 - wait_patience: 4
+2022-11-05 22:23:00,004 - num_train_epochs: 100
+2022-11-05 22:23:00,004 - hidden_size: 256
+2022-11-05 22:23:00,004 - dropout_rate: 0
+2022-11-05 22:23:00,004 - lr: 3e-05
+2022-11-05 22:23:00,004 - grad_clip: -1.0
+2022-11-05 22:23:00,004 - gamma: 0.5
+2022-11-05 22:23:00,004 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'hidden_size': 256, 'dropout_rate': 0, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2022-11-05 22:23:00,004 - pred_output_path: outputs\baseline_MIntRec_multi-class_2022-11-05-22-23-00
+2022-11-05 22:23:00,004 - model_output_path: outputs\baseline_MIntRec_multi-class_2022-11-05-22-23-00\models
+2022-11-05 22:23:00,004 - ============================== End Params ==============================
+2022-11-05 22:23:00,008 - Generate Text Features Begin...
+2022-11-05 22:23:16,705 - Generate Text Features Finished...
+2022-11-05 22:23:16,705 - Load Video Features Begin...
+2022-11-05 22:23:17,108 - Load Video Features Finished...
+2022-11-05 22:23:17,500 - Load Audio Features Begin...
+2022-11-05 22:23:18,233 - Load Audio Features Finished...
+2022-11-05 22:23:38,016 - Multimodal intent recognition begins...
+2022-11-05 22:23:38,020 - Training begins...

@@ -1,0 +1,76 @@
+acc,f1,prec,rec,eval_f1,dataset,method,text_backbone,seed,logger_name
+72.58,70.46,71.9,70.45,0.6816,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-05-11-07-44 dropout:0.1
+71.01,68.98,69.0,69.52,0.6945,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-05-21-31-20 dropout:0
+72.13,67.64,68.5,68.17,0.6952,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-09-15-32-04 use_cmd_sim:True
+29.44,22.08,23.76,22.03,0.2471,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-09-19-09 -t
+73.26,70.13,71.67,70.13,0.6886,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-09-33-16 -a
+71.46,67.23,68.02,68.28,0.6913,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-09-44-59 -v
+70.56,67.76,68.74,68.36,0.6591,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-09-54-08 -diff
+71.46,68.34,69.58,68.74,0.6941,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-10-00-44 -sim
+68.31,66.47,67.97,66.84,0.6966,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-10-07-28 -recon
+70.56,68.46,69.09,68.61,0.6983,MIntRec,baseline,bert-base-uncased,0.0,baseline_MIntRec_multi-class_2022-11-10-10-57-13 -MultRe
+68.76,65.54,64.67,68.11,0.6813,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-11-06-39 -gate_v
+72.36,69.1,69.67,69.37,0.6843,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-11-14-31 -gate_a
+71.01,68.3,69.49,68.0,0.7067,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-10-11-23-37 -gate_v
+72.36,69.1,69.67,69.37,0.6843,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-17-20-51-41
+72.36,69.1,69.67,69.37,0.6843,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-09-35-31
+72.58,70.46,71.9,70.45,0.6816,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-09-46-11 train_data 100%
+71.24,68.26,68.78,68.59,0.6773,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-12-07-18 train_data 90%
+69.21,66.54,68.51,67.14,0.67099,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-12-45-11 train_data 80%
+69.44,66.85,68.26,66.39,0.6963,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-12-52-51 train_data 70%
+70.11,66.76,68.53,66.86,0.662,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-13-01-48 rain_data 60%
+68.99,65.75,67.33,65.2,0.6395,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-13-10-29 rain_data 50%
+65.62,60.49,65.39,59.13,0.5916,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-13-16-07 rain_data 40%
+68.99,64.25,70.19,62.13,0.5908,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-13-20-43 rain_data 30%
+62.92,56.18,60.78,55.05,0.5409,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-12-03-21 train_data 20%
+57.08,45.74,51.61,46.8,0.4718,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-11-57-47 train_data 10%
+57.98,47.53,56.87,48.38,0.466,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-13-56-09 10%
+60.67,57.34,70.35,54.7,0.5505,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-13-59-52 20%
+65.84,61.3,67.77,59.84,0.6701,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-14-04-54 30%
+68.54,65.73,66.31,66.18,0.6283,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-14-08-11 40%
+68.31,65.98,67.41,65.56,0.649,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-14-14-44 50%
+70.56,67.93,70.22,67.63,0.6684,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-14-23-35 60%
+70.56,67.38,67.79,68.38,0.6745,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-14-29-33 70%
+71.69,67.54,69.64,66.75,0.6671,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-14-38-29 80%
+71.46,69.57,69.39,71.07,0.6970000000000001,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-18-14-47-27  90%
+72.58,70.46,71.9,70.45,0.6816,,,,,
+72.13,69.68,70.22,70.07,0.6952,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-10-17-07  noise 1 tvt
+71.01,66.61,67.82,67.73,0.6741,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-10-34-14  noise 2
+71.24,68.73,70.98,68.23,0.6899,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-11-31-17  noise 0.5
+70.11,67.01,68.23,67.03,0.6869,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-11-41-43
+70.11,67.01,68.23,67.03,0.6869,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-12-03-49
+71.24,68.9,70.63,68.12,0.6667,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-13-01-21  t0.1
+72.13,68.88,69.7,68.76,0.6663,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-13-10-58  t0.5
+71.24,68.9,70.63,68.12,0.6667,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-13-31-30
+71.24,67.69,68.56,67.91,0.7001,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2022-11-29-13-39-40
+
+// a b r 网格搜索,,,,,,,,,
+71.69,69.64,70.11,70.28,0.7049,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-13-21-02-03 a 0.1 b 0.5 r 0.5
+70.11,67.55,68.36,67.21,0.6854,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-13-21-12-06 a 0.2 b 0.5 r 0.5
+71.24,69.04,69.94,69.23,0.6748,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-13-21-34-30 a 0.3 b 0.5 r 0.5
+70.34,67.96,68.41,68.37,0.6634,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-13-22-39-38 a 0.4 b 0.5 r 0.5
+70.56,68.36,68.7,68.93,0.6972,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-08-15-18  a 0.5 b 0.5 r 0.5
+70.34,68.54,70.77,67.92,0.6941,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-08-24-06 a 0.6 b 0.5 r 0.5
+72.36,70.92,71.07,71.75,0.7159,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-13-20-51-00 a 0.7 b 0.5 r 0.5
+70.79,66.91,66.93,67.52,0.7101,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-08-34-02 a 0.8 b 0.5 r 0.5
+69.66,67.22,68.91,66.96,0.6784,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-08-50-08 a 0.9 b 0.5 r 0.5
+71.69,68.27,68.96,68.27,0.6781,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-09-07-55 a 1.0 b 0.5 r 0.5
+
+71.69,69.75,70.83,70.05,0.6847,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-09-19-03 a 0.7 b 0.1 r 0.5
+67.87,64.31,65.34,66.16,0.6983,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-09-36-54 a 0.7 b 0.2 r 0.5
+69.89,67.75,67.59,68.9,0.6995,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-09-54-45  a 0.7 b 0.3 r 0.5
+69.44,66.2,67.25,66.69,0.6997,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-10-05-51  a 0.7 b 0.4 r 0.5
+70.56,67.73,68.18,67.77,0.6953,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-10-14-29 a 0.7 b 0.6 r 0.5
+70.79,68.85,70.23,68.63,0.6891,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-10-28-39 a 0.7 b 0.7 r 0.5
+68.76,66.7,67.41,67.18,0.6918,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-10-38-23  a 0.7 b 0.8 r 0.5
+70.11,67.24,68.88,66.64,0.701,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-10-45-35  a 0.7 b 0.9 r 0.5
+71.24,67.57,68.47,67.29,0.686,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-11-02-38  a 0.7 b 1.0 r 0.5
+
+70.56,66.85,67.22,67.06,0.6999,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-11-13-10 a 0.7 b 0.7 r 0.1
+66.52,62.76,61.98,65.62,0.7014,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-11-22-47 a 0.7 b 0.7 r 0.2
+70.56,67.06,69.1,66.96,0.6835,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-14-19-23  a 0.7 b 0.7 r 0.3
+69.89,66.92,67.88,66.78,0.6634,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-14-29-59 a 0.7 b 0.7 r 0.4
+70.11,66.95,68.92,67.54,0.6884,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-14-45-19 a 0.7 b 0.7 r 0.7
+67.64,65.43,66.16,66.04,0.6895,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-15-20-19 a 0.7 b 0.7 r 0.8
+69.66,66.64,68.15,66.22,0.6969,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-15-30-26 a 0.7 b 0.7 r 0.9
+72.58,69.04,71.38,69.11,0.6867,MIntRec,nmfir,bert-base-uncased,0.0,nmfir_MIntRec_multi-class_2023-03-14-15-41-24 a 0.7 b 0.7 r 1.0

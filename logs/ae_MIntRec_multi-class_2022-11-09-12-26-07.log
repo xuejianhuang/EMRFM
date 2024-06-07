@@ -1,0 +1,31 @@
+2022-11-09 12:26:07,154 - Generate Text Features Begin...
+2022-11-09 12:26:26,775 - Generate Text Features Finished...
+2022-11-09 12:26:26,775 - Load Video Features Begin...
+2022-11-09 12:26:27,692 - Load Video Features Finished...
+2022-11-09 12:26:28,075 - Load Audio Features Begin...
+2022-11-09 12:26:28,780 - Load Audio Features Finished...
+2022-11-09 12:27:10,736 - ***** Epoch: 1: Eval results *****
+2022-11-09 12:27:10,750 -   best_eval_score = 0.0114
+2022-11-09 12:27:10,750 -   eval_score = 0.0114
+2022-11-09 12:27:10,750 -   train_loss = 2.9288
+2022-11-09 12:27:31,882 - EarlyStopping counter: 1 out of 4
+2022-11-09 12:27:31,882 - ***** Epoch: 2: Eval results *****
+2022-11-09 12:27:31,883 -   best_eval_score = 0.0114
+2022-11-09 12:27:31,883 -   eval_score = 0.0114
+2022-11-09 12:27:31,883 -   train_loss = 2.86
+2022-11-09 12:27:52,538 - EarlyStopping counter: 2 out of 4
+2022-11-09 12:27:52,539 - ***** Epoch: 3: Eval results *****
+2022-11-09 12:27:52,539 -   best_eval_score = 0.0114
+2022-11-09 12:27:52,539 -   eval_score = 0.0114
+2022-11-09 12:27:52,539 -   train_loss = 2.8584
+2022-11-09 12:28:13,705 - EarlyStopping counter: 3 out of 4
+2022-11-09 12:28:13,705 - ***** Epoch: 4: Eval results *****
+2022-11-09 12:28:13,705 -   best_eval_score = 0.0114
+2022-11-09 12:28:13,705 -   eval_score = 0.0114
+2022-11-09 12:28:13,705 -   train_loss = 2.8427
+2022-11-09 12:28:34,952 - EarlyStopping counter: 4 out of 4
+2022-11-09 12:28:34,952 - ***** Epoch: 5: Eval results *****
+2022-11-09 12:28:34,952 -   best_eval_score = 0.0114
+2022-11-09 12:28:34,952 -   eval_score = 0.0114
+2022-11-09 12:28:34,952 -   train_loss = 2.8398
+2022-11-09 12:28:34,953 - EarlyStopping at epoch 5

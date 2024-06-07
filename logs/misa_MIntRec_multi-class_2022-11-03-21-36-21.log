@@ -1,0 +1,61 @@
+2022-11-03 21:36:21,946 - ============================== Params ==============================
+2022-11-03 21:36:21,946 - logger_name: misa_MIntRec_multi-class_2022-11-03-21-36-21
+2022-11-03 21:36:21,947 - dataset: MIntRec
+2022-11-03 21:36:21,947 - data_mode: multi-class
+2022-11-03 21:36:21,947 - method: misa
+2022-11-03 21:36:21,947 - text_backbone: bert-base-uncased
+2022-11-03 21:36:21,947 - seed: 0
+2022-11-03 21:36:21,947 - num_workers: 0
+2022-11-03 21:36:21,947 - gpu_id: 0
+2022-11-03 21:36:21,947 - data_path: MIA-datasets
+2022-11-03 21:36:21,947 - train: True
+2022-11-03 21:36:21,947 - tune: False
+2022-11-03 21:36:21,947 - save_model: True
+2022-11-03 21:36:21,947 - save_results: True
+2022-11-03 21:36:21,947 - log_path: logs
+2022-11-03 21:36:21,947 - cache_path: cache
+2022-11-03 21:36:21,947 - video_data_path: video_data
+2022-11-03 21:36:21,947 - audio_data_path: audio_data
+2022-11-03 21:36:21,947 - video_feats_path: video_feats.pkl
+2022-11-03 21:36:21,947 - audio_feats_path: audio_feats.pkl
+2022-11-03 21:36:21,947 - results_path: results
+2022-11-03 21:36:21,947 - output_path: outputs
+2022-11-03 21:36:21,947 - model_path: models
+2022-11-03 21:36:21,947 - config_file_name: misa_bert
+2022-11-03 21:36:21,947 - results_file_name: misa_bert.csv
+2022-11-03 21:36:21,947 - padding_mode: zero
+2022-11-03 21:36:21,947 - padding_loc: end
+2022-11-03 21:36:21,947 - need_aligned: False
+2022-11-03 21:36:21,947 - eval_monitor: f1
+2022-11-03 21:36:21,947 - train_batch_size: 6
+2022-11-03 21:36:21,947 - eval_batch_size: 6
+2022-11-03 21:36:21,947 - test_batch_size: 4
+2022-11-03 21:36:21,947 - wait_patience: 4
+2022-11-03 21:36:21,948 - num_train_epochs: 100
+2022-11-03 21:36:21,948 - rnncell: lstm
+2022-11-03 21:36:21,948 - use_cmd_sim: False
+2022-11-03 21:36:21,948 - reverse_grad_weight: 0.8
+2022-11-03 21:36:21,948 - hidden_size: 256
+2022-11-03 21:36:21,948 - dropout_rate: 0.1
+2022-11-03 21:36:21,948 - diff_weight: 0.7
+2022-11-03 21:36:21,948 - sim_weight: 0.7
+2022-11-03 21:36:21,948 - recon_weight: 0.7
+2022-11-03 21:36:21,948 - lr: 3e-05
+2022-11-03 21:36:21,948 - grad_clip: -1.0
+2022-11-03 21:36:21,948 - gamma: 0.5
+2022-11-03 21:36:21,948 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'rnncell': 'lstm', 'use_cmd_sim': False, 'reverse_grad_weight': 0.8, 'hidden_size': 256, 'dropout_rate': 0.1, 'diff_weight': 0.7, 'sim_weight': 0.7, 'recon_weight': 0.7, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2022-11-03 21:36:21,948 - pred_output_path: outputs\misa_MIntRec_multi-class_2022-11-03-21-36-21
+2022-11-03 21:36:21,948 - model_output_path: outputs\misa_MIntRec_multi-class_2022-11-03-21-36-21\models
+2022-11-03 21:36:21,948 - ============================== End Params ==============================
+2022-11-03 21:36:21,951 - Generate Text Features Begin...
+2022-11-03 21:36:38,994 - Generate Text Features Finished...
+2022-11-03 21:36:38,994 - Load Video Features Begin...
+2022-11-03 21:36:39,395 - Load Video Features Finished...
+2022-11-03 21:36:39,796 - Load Audio Features Begin...
+2022-11-03 21:36:40,528 - Load Audio Features Finished...
+2022-11-03 21:36:59,825 - Multimodal intent recognition begins...
+2022-11-03 21:36:59,828 - Training begins...
+2022-11-03 21:37:36,865 - ***** Epoch: 1: Eval results *****
+2022-11-03 21:37:36,874 -   best_eval_score = 0.4044
+2022-11-03 21:37:36,874 -   eval_score = 0.4044
+2022-11-03 21:37:36,874 -   train_loss = 3.3521

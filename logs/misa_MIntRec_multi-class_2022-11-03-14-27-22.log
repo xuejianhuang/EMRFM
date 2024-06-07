@@ -1,0 +1,83 @@
+2022-11-03 14:27:22,218 - ============================== Params ==============================
+2022-11-03 14:27:22,218 - logger_name: misa_MIntRec_multi-class_2022-11-03-14-27-22
+2022-11-03 14:27:22,218 - dataset: MIntRec
+2022-11-03 14:27:22,218 - data_mode: multi-class
+2022-11-03 14:27:22,218 - method: misa
+2022-11-03 14:27:22,218 - text_backbone: bert-base-uncased
+2022-11-03 14:27:22,218 - seed: 0
+2022-11-03 14:27:22,218 - num_workers: 0
+2022-11-03 14:27:22,218 - gpu_id: 0
+2022-11-03 14:27:22,218 - data_path: MIA-datasets
+2022-11-03 14:27:22,218 - train: False
+2022-11-03 14:27:22,218 - tune: False
+2022-11-03 14:27:22,218 - save_model: True
+2022-11-03 14:27:22,219 - save_results: True
+2022-11-03 14:27:22,219 - log_path: logs
+2022-11-03 14:27:22,219 - cache_path: cache
+2022-11-03 14:27:22,219 - video_data_path: video_data
+2022-11-03 14:27:22,219 - audio_data_path: audio_data
+2022-11-03 14:27:22,219 - video_feats_path: video_feats.pkl
+2022-11-03 14:27:22,219 - audio_feats_path: audio_feats.pkl
+2022-11-03 14:27:22,219 - results_path: results
+2022-11-03 14:27:22,219 - output_path: outputs
+2022-11-03 14:27:22,219 - model_path: models
+2022-11-03 14:27:22,219 - config_file_name: misa_bert
+2022-11-03 14:27:22,219 - results_file_name: misa_bert.csv
+2022-11-03 14:27:22,219 - padding_mode: zero
+2022-11-03 14:27:22,219 - padding_loc: end
+2022-11-03 14:27:22,219 - need_aligned: False
+2022-11-03 14:27:22,219 - eval_monitor: f1
+2022-11-03 14:27:22,219 - train_batch_size: 6
+2022-11-03 14:27:22,219 - eval_batch_size: 6
+2022-11-03 14:27:22,219 - test_batch_size: 4
+2022-11-03 14:27:22,219 - wait_patience: 4
+2022-11-03 14:27:22,219 - num_train_epochs: 1
+2022-11-03 14:27:22,219 - rnncell: lstm
+2022-11-03 14:27:22,219 - use_cmd_sim: False
+2022-11-03 14:27:22,219 - reverse_grad_weight: 0.8
+2022-11-03 14:27:22,219 - hidden_size: 256
+2022-11-03 14:27:22,219 - dropout_rate: 0.1
+2022-11-03 14:27:22,219 - diff_weight: 0.7
+2022-11-03 14:27:22,219 - sim_weight: 0.7
+2022-11-03 14:27:22,219 - recon_weight: 0.6
+2022-11-03 14:27:22,219 - lr: 3e-05
+2022-11-03 14:27:22,219 - grad_clip: -1.0
+2022-11-03 14:27:22,219 - gamma: 0.5
+2022-11-03 14:27:22,219 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 1, 'rnncell': 'lstm', 'use_cmd_sim': False, 'reverse_grad_weight': 0.8, 'hidden_size': 256, 'dropout_rate': 0.1, 'diff_weight': 0.7, 'sim_weight': 0.7, 'recon_weight': 0.6, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2022-11-03 14:27:22,219 - pred_output_path: outputs\misa_MIntRec_multi-class_2022-11-03-14-27-22
+2022-11-03 14:27:22,219 - model_output_path: outputs\misa_MIntRec_multi-class_2022-11-03-11-15-03\models
+2022-11-03 14:27:22,219 - ============================== End Params ==============================
+2022-11-03 14:27:22,223 - Generate Text Features Begin...
+2022-11-03 14:27:39,279 - Generate Text Features Finished...
+2022-11-03 14:27:39,279 - Load Video Features Begin...
+2022-11-03 14:27:39,691 - Load Video Features Finished...
+2022-11-03 14:27:40,100 - Load Audio Features Begin...
+2022-11-03 14:27:40,859 - Load Audio Features Finished...
+2022-11-03 14:28:08,736 - Multimodal intent recognition begins...
+2022-11-03 14:28:08,738 - Testing begins...
+2022-11-03 14:28:13,589 - ***** Test: Confusion Matrix *****
+2022-11-03 14:28:13,592 - [[46  5  0  0  1  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0]
+ [ 0 43  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 1  0 26  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  1  0 24  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [10  0  0  0 12  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0]
+ [ 1  9  0  0  0  1  0  0  0  0  0  0  1  0  0  0  0  0  0  0]
+ [ 4  2  0  0  3  0  0  0  0  0  0  0  3  0  0  0  0  0  0  0]
+ [ 5  4  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0]
+ [ 4  3  0  0  0  0  0  0  0  0  0  0  2  0  0  1  0  0  0  0]
+ [ 4  1  0  0  2  0  0  0  0  0  0  0  3  0  0  0  0  0  0  0]
+ [ 3  5  0  0  1  0  0  0  0  0  8  0  1  0  0  0  0  0  0  0]
+ [ 0  0  0  0  3  0  0  0  0  0  0 15  1  0  0  0  0  0  0  0]
+ [ 5  6  0  1  0  0  0  0  0  0  0  0 45  0  0  0  0  0  0  0]
+ [ 2  2  0  0  3  0  0  0  0  0  1  1  6 10  0  0  0  0  0  0]
+ [ 0  1  0  0  1  0  0  0  0  0  0  0 17  3  0  0  0  0  0  0]
+ [ 0  6  0  1  0  0  0  0  0  0  0  0 10  0  0  4  0  0  0  0]
+ [ 1  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0 10  0  0  0]
+ [ 3  0  0  0  4  0  0  0  0  0  0  0  2  0  0  0  0  6  0  0]
+ [ 0  3  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  7  0]
+ [ 1  0  0  0  0  0  0  0  0  0  0  0  7  2  0  0  0  0  0  0]]
+2022-11-03 14:28:13,598 - ***** Evaluation results *****
+2022-11-03 14:28:13,598 -   acc = 0.5775
+2022-11-03 14:28:13,599 -   f1 = 0.4316
+2022-11-03 14:28:13,599 -   prec = 0.5499
+2022-11-03 14:28:13,599 -   rec = 0.426

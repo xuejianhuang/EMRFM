@@ -1,0 +1,162 @@
+2023-03-13 22:39:38,722 - ============================== Params ==============================
+2023-03-13 22:39:38,723 - logger_name: nmfir_MIntRec_multi-class_2023-03-13-22-39-38
+2023-03-13 22:39:38,723 - dataset: MIntRec
+2023-03-13 22:39:38,723 - data_mode: multi-class
+2023-03-13 22:39:38,723 - method: nmfir
+2023-03-13 22:39:38,723 - text_backbone: bert-base-uncased
+2023-03-13 22:39:38,723 - seed: 0
+2023-03-13 22:39:38,723 - num_workers: 0
+2023-03-13 22:39:38,723 - gpu_id: 0
+2023-03-13 22:39:38,723 - data_path: MIA-datasets
+2023-03-13 22:39:38,723 - train: True
+2023-03-13 22:39:38,723 - tune: False
+2023-03-13 22:39:38,723 - save_model: True
+2023-03-13 22:39:38,723 - save_results: True
+2023-03-13 22:39:38,723 - log_path: logs
+2023-03-13 22:39:38,723 - cache_path: cache
+2023-03-13 22:39:38,723 - video_data_path: video_data
+2023-03-13 22:39:38,723 - audio_data_path: audio_data
+2023-03-13 22:39:38,723 - video_feats_path: video_feats.pkl
+2023-03-13 22:39:38,723 - audio_feats_path: audio_feats.pkl
+2023-03-13 22:39:38,723 - results_path: results
+2023-03-13 22:39:38,723 - output_path: outputs
+2023-03-13 22:39:38,723 - model_path: models
+2023-03-13 22:39:38,723 - config_file_name: nmfir_bert
+2023-03-13 22:39:38,723 - results_file_name: nmfir_bert.csv
+2023-03-13 22:39:38,723 - padding_mode: zero
+2023-03-13 22:39:38,723 - padding_loc: end
+2023-03-13 22:39:38,723 - need_aligned: False
+2023-03-13 22:39:38,723 - eval_monitor: f1
+2023-03-13 22:39:38,723 - train_batch_size: 6
+2023-03-13 22:39:38,723 - eval_batch_size: 6
+2023-03-13 22:39:38,723 - test_batch_size: 4
+2023-03-13 22:39:38,724 - wait_patience: 4
+2023-03-13 22:39:38,724 - num_train_epochs: 100
+2023-03-13 22:39:38,724 - use_cmd_sim: False
+2023-03-13 22:39:38,724 - reverse_grad_weight: 0.8
+2023-03-13 22:39:38,724 - hidden_size: 256
+2023-03-13 22:39:38,724 - dropout_rate: 0.1
+2023-03-13 22:39:38,724 - diff_weight: 0.4
+2023-03-13 22:39:38,724 - sim_weight: 0.5
+2023-03-13 22:39:38,724 - recon_weight: 0.5
+2023-03-13 22:39:38,724 - lr: 3e-05
+2023-03-13 22:39:38,724 - grad_clip: -1.0
+2023-03-13 22:39:38,724 - gamma: 0.5
+2023-03-13 22:39:38,724 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'use_cmd_sim': False, 'reverse_grad_weight': 0.8, 'hidden_size': 256, 'dropout_rate': 0.1, 'diff_weight': 0.4, 'sim_weight': 0.5, 'recon_weight': 0.5, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2023-03-13 22:39:38,724 - pred_output_path: outputs\nmfir_MIntRec_multi-class_2023-03-13-22-39-38
+2023-03-13 22:39:38,724 - model_output_path: outputs\nmfir_MIntRec_multi-class_2023-03-13-22-39-38\models
+2023-03-13 22:39:38,724 - ============================== End Params ==============================
+2023-03-13 22:39:38,737 - Generate Text Features Begin...
+2023-03-13 22:40:08,906 - Generate Text Features Finished...
+2023-03-13 22:40:08,906 - Load Video Features Begin...
+2023-03-13 22:40:09,192 - Load Video Features Finished...
+2023-03-13 22:40:09,579 - Load Audio Features Begin...
+2023-03-13 22:40:10,392 - Load Audio Features Finished...
+2023-03-13 22:40:32,201 - Multimodal intent recognition begins...
+2023-03-13 22:40:32,204 - Training begins...
+2023-03-13 22:41:11,946 - ***** Epoch: 1: Eval results *****
+2023-03-13 22:41:11,956 -   best_eval_score = 0.415
+2023-03-13 22:41:11,957 -   eval_score = 0.415
+2023-03-13 22:41:11,957 -   train_loss = 3.0445
+2023-03-13 22:41:46,857 - ***** Epoch: 2: Eval results *****
+2023-03-13 22:41:46,857 -   best_eval_score = 0.6208
+2023-03-13 22:41:46,857 -   eval_score = 0.6208
+2023-03-13 22:41:46,857 -   train_loss = 1.71
+2023-03-13 22:42:21,017 - ***** Epoch: 3: Eval results *****
+2023-03-13 22:42:21,017 -   best_eval_score = 0.644
+2023-03-13 22:42:21,017 -   eval_score = 0.644
+2023-03-13 22:42:21,017 -   train_loss = 1.1564
+2023-03-13 22:42:54,823 - EarlyStopping counter: 1 out of 4
+2023-03-13 22:42:54,823 - ***** Epoch: 4: Eval results *****
+2023-03-13 22:42:54,830 -   best_eval_score = 0.644
+2023-03-13 22:42:54,830 -   eval_score = 0.6389
+2023-03-13 22:42:54,830 -   train_loss = 0.9102
+2023-03-13 22:43:29,137 - ***** Epoch: 5: Eval results *****
+2023-03-13 22:43:29,137 -   best_eval_score = 0.6583
+2023-03-13 22:43:29,137 -   eval_score = 0.6583
+2023-03-13 22:43:29,137 -   train_loss = 0.7624
+2023-03-13 22:44:06,741 - EarlyStopping counter: 1 out of 4
+2023-03-13 22:44:06,741 - ***** Epoch: 6: Eval results *****
+2023-03-13 22:44:06,741 -   best_eval_score = 0.6583
+2023-03-13 22:44:06,741 -   eval_score = 0.6558
+2023-03-13 22:44:06,741 -   train_loss = 0.6823
+2023-03-13 22:44:43,831 - EarlyStopping counter: 2 out of 4
+2023-03-13 22:44:43,831 - ***** Epoch: 7: Eval results *****
+2023-03-13 22:44:43,831 -   best_eval_score = 0.6583
+2023-03-13 22:44:43,831 -   eval_score = 0.6576
+2023-03-13 22:44:43,831 -   train_loss = 0.6415
+2023-03-13 22:45:20,745 - ***** Epoch: 8: Eval results *****
+2023-03-13 22:45:20,745 -   best_eval_score = 0.6615
+2023-03-13 22:45:20,745 -   eval_score = 0.6615
+2023-03-13 22:45:20,745 -   train_loss = 0.6289
+2023-03-13 22:45:57,015 - ***** Epoch: 9: Eval results *****
+2023-03-13 22:45:57,015 -   best_eval_score = 0.6622
+2023-03-13 22:45:57,015 -   eval_score = 0.6622
+2023-03-13 22:45:57,015 -   train_loss = 0.6267
+2023-03-13 22:46:33,653 - EarlyStopping counter: 1 out of 4
+2023-03-13 22:46:33,653 - ***** Epoch: 10: Eval results *****
+2023-03-13 22:46:33,653 -   best_eval_score = 0.6622
+2023-03-13 22:46:33,653 -   eval_score = 0.6586
+2023-03-13 22:46:33,653 -   train_loss = 0.6235
+2023-03-13 22:47:14,458 - EarlyStopping counter: 2 out of 4
+2023-03-13 22:47:14,458 - ***** Epoch: 11: Eval results *****
+2023-03-13 22:47:14,458 -   best_eval_score = 0.6622
+2023-03-13 22:47:14,458 -   eval_score = 0.6611
+2023-03-13 22:47:14,458 -   train_loss = 0.6219
+2023-03-13 22:47:50,202 - ***** Epoch: 12: Eval results *****
+2023-03-13 22:47:50,202 -   best_eval_score = 0.6634
+2023-03-13 22:47:50,202 -   eval_score = 0.6634
+2023-03-13 22:47:50,202 -   train_loss = 0.621
+2023-03-13 22:48:24,262 - EarlyStopping counter: 1 out of 4
+2023-03-13 22:48:24,262 - ***** Epoch: 13: Eval results *****
+2023-03-13 22:48:24,262 -   best_eval_score = 0.6634
+2023-03-13 22:48:24,262 -   eval_score = 0.6634
+2023-03-13 22:48:24,262 -   train_loss = 0.6203
+2023-03-13 22:49:00,920 - EarlyStopping counter: 2 out of 4
+2023-03-13 22:49:00,920 - ***** Epoch: 14: Eval results *****
+2023-03-13 22:49:00,920 -   best_eval_score = 0.6634
+2023-03-13 22:49:00,920 -   eval_score = 0.6634
+2023-03-13 22:49:00,920 -   train_loss = 0.6205
+2023-03-13 22:49:38,181 - EarlyStopping counter: 3 out of 4
+2023-03-13 22:49:38,181 - ***** Epoch: 15: Eval results *****
+2023-03-13 22:49:38,181 -   best_eval_score = 0.6634
+2023-03-13 22:49:38,181 -   eval_score = 0.6634
+2023-03-13 22:49:38,181 -   train_loss = 0.619
+2023-03-13 22:50:14,689 - EarlyStopping counter: 4 out of 4
+2023-03-13 22:50:14,689 - ***** Epoch: 16: Eval results *****
+2023-03-13 22:50:14,689 -   best_eval_score = 0.6634
+2023-03-13 22:50:14,689 -   eval_score = 0.6634
+2023-03-13 22:50:14,689 -   train_loss = 0.6203
+2023-03-13 22:50:14,689 - EarlyStopping at epoch 16
+2023-03-13 22:50:14,689 - Trained models are saved in outputs\nmfir_MIntRec_multi-class_2023-03-13-22-39-38\models
+2023-03-13 22:50:15,550 - Training is finished...
+2023-03-13 22:50:15,550 - Testing begins...
+2023-03-13 22:50:18,788 - ***** Test: Confusion Matrix *****
+2023-03-13 22:50:18,788 - [[30  2  0  0  7  0  4  1  2  3  0  0  6  2  0  0  0  0  0  0]
+ [ 0 36  0  0  0  2  2  0  1  0  0  0  2  0  0  0  0  0  0  0]
+ [ 1  0 26  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  1 24  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 3  0  0  0 11  0  4  0  0  0  1  1  1  0  1  0  0  0  0  1]
+ [ 0  0  0  0  0 12  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 2  1  0  0  2  0  2  0  3  0  0  1  1  0  0  0  0  0  0  0]
+ [ 3  0  0  0  0  1  0  5  1  0  0  0  0  0  0  0  0  0  0  0]
+ [ 1  0  0  0  0  0  0  2  3  0  0  0  0  2  0  1  1  0  0  0]
+ [ 1  0  0  0  0  0  0  0  0  4  1  0  0  0  0  2  0  2  0  0]
+ [ 2  0  0  0  0  0  0  1  0  0 15  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  1  0  0  0  0 17  0  0  0  0  0  0  0  1]
+ [ 3  1  0  1  0  0  0  0  0  0  1  2 40  5  2  1  1  0  0  0]
+ [ 0  0  0  0  0  0  1  0  0  0  1  1  0 20  1  0  1  0  0  0]
+ [ 0  0  0  0  1  0  0  0  1  0  0  0  1  2 15  0  1  0  0  1]
+ [ 0  1  0  1  0  0  0  0  1  0  0  0  5  1  1 11  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  3  0  0  0 14  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  1  1  0  1  0  1  0  0 11  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  2  0  0  1  0  0  9  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0  0  0  8]]
+2023-03-13 22:50:18,788 - ***** Evaluation results *****
+2023-03-13 22:50:18,788 -   acc = 0.7034
+2023-03-13 22:50:18,788 -   f1 = 0.6796
+2023-03-13 22:50:18,788 -   prec = 0.6841
+2023-03-13 22:50:18,788 -   rec = 0.6837
+2023-03-13 22:50:18,788 - Testing is finished...
+2023-03-13 22:50:18,788 - Multimodal intent recognition is finished...
+2023-03-13 22:50:18,788 - Results are saved in results\nmfir_bert.csv

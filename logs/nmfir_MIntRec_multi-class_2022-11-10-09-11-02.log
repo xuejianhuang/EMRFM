@@ -1,0 +1,56 @@
+2022-11-10 09:11:02,353 - ============================== Params ==============================
+2022-11-10 09:11:02,353 - logger_name: nmfir_MIntRec_multi-class_2022-11-10-09-11-02
+2022-11-10 09:11:02,353 - dataset: MIntRec
+2022-11-10 09:11:02,353 - data_mode: multi-class
+2022-11-10 09:11:02,353 - method: nmfir
+2022-11-10 09:11:02,353 - text_backbone: bert-base-uncased
+2022-11-10 09:11:02,353 - seed: 0
+2022-11-10 09:11:02,353 - num_workers: 0
+2022-11-10 09:11:02,353 - gpu_id: 0
+2022-11-10 09:11:02,353 - data_path: MIA-datasets
+2022-11-10 09:11:02,353 - train: True
+2022-11-10 09:11:02,353 - tune: False
+2022-11-10 09:11:02,353 - save_model: True
+2022-11-10 09:11:02,354 - save_results: True
+2022-11-10 09:11:02,354 - log_path: logs
+2022-11-10 09:11:02,354 - cache_path: cache
+2022-11-10 09:11:02,354 - video_data_path: video_data
+2022-11-10 09:11:02,354 - audio_data_path: audio_data
+2022-11-10 09:11:02,354 - video_feats_path: video_feats.pkl
+2022-11-10 09:11:02,354 - audio_feats_path: audio_feats.pkl
+2022-11-10 09:11:02,354 - results_path: results
+2022-11-10 09:11:02,354 - output_path: outputs
+2022-11-10 09:11:02,354 - model_path: models
+2022-11-10 09:11:02,354 - config_file_name: nmfir_bert
+2022-11-10 09:11:02,354 - results_file_name: nmfir_bert.csv
+2022-11-10 09:11:02,354 - padding_mode: zero
+2022-11-10 09:11:02,354 - padding_loc: end
+2022-11-10 09:11:02,354 - need_aligned: False
+2022-11-10 09:11:02,354 - eval_monitor: f1
+2022-11-10 09:11:02,354 - train_batch_size: 6
+2022-11-10 09:11:02,354 - eval_batch_size: 6
+2022-11-10 09:11:02,354 - test_batch_size: 4
+2022-11-10 09:11:02,354 - wait_patience: 4
+2022-11-10 09:11:02,354 - num_train_epochs: 100
+2022-11-10 09:11:02,354 - use_cmd_sim: False
+2022-11-10 09:11:02,354 - reverse_grad_weight: 0.8
+2022-11-10 09:11:02,354 - hidden_size: 256
+2022-11-10 09:11:02,354 - dropout_rate: 0.1
+2022-11-10 09:11:02,354 - diff_weight: 0.7
+2022-11-10 09:11:02,354 - sim_weight: 0.7
+2022-11-10 09:11:02,354 - recon_weight: 0.6
+2022-11-10 09:11:02,354 - lr: 3e-05
+2022-11-10 09:11:02,354 - grad_clip: -1.0
+2022-11-10 09:11:02,354 - gamma: 0.5
+2022-11-10 09:11:02,354 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'use_cmd_sim': False, 'reverse_grad_weight': 0.8, 'hidden_size': 256, 'dropout_rate': 0.1, 'diff_weight': 0.7, 'sim_weight': 0.7, 'recon_weight': 0.6, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2022-11-10 09:11:02,354 - pred_output_path: outputs\nmfir_MIntRec_multi-class_2022-11-10-09-11-02
+2022-11-10 09:11:02,354 - model_output_path: outputs\nmfir_MIntRec_multi-class_2022-11-10-09-11-02\models
+2022-11-10 09:11:02,354 - ============================== End Params ==============================
+2022-11-10 09:11:02,366 - Generate Text Features Begin...
+2022-11-10 09:11:18,938 - Generate Text Features Finished...
+2022-11-10 09:11:18,938 - Load Video Features Begin...
+2022-11-10 09:11:19,438 - Load Video Features Finished...
+2022-11-10 09:11:20,190 - Load Audio Features Begin...
+2022-11-10 09:11:21,394 - Load Audio Features Finished...
+2022-11-10 09:11:53,437 - Multimodal intent recognition begins...
+2022-11-10 09:11:53,437 - Training begins...

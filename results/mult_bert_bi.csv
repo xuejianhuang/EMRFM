@@ -1,0 +1,2 @@
+acc,f1,prec,rec,eval_f1,dataset,method,text_backbone,seed,logger_name
+87.64,87.46,87.52,87.4,0.9088,MIntRec,mult,bert-base-uncased,0,mult_MIntRec_binary-class_2022-11-09-20-51-38

@@ -1,0 +1,48 @@
+2022-11-16 20:25:29,748 - ============================== Params ==============================
+2022-11-16 20:25:29,749 - logger_name: text_MIntRec_multi-class_2022-11-16-20-25-29
+2022-11-16 20:25:29,749 - dataset: MIntRec
+2022-11-16 20:25:29,749 - data_mode: multi-class
+2022-11-16 20:25:29,749 - method: text
+2022-11-16 20:25:29,749 - text_backbone: bert-base-uncased
+2022-11-16 20:25:29,749 - seed: 0
+2022-11-16 20:25:29,749 - num_workers: 0
+2022-11-16 20:25:29,749 - gpu_id: 0
+2022-11-16 20:25:29,749 - data_path: MIA-datasets
+2022-11-16 20:25:29,749 - train: True
+2022-11-16 20:25:29,749 - tune: False
+2022-11-16 20:25:29,749 - save_model: True
+2022-11-16 20:25:29,749 - save_results: True
+2022-11-16 20:25:29,749 - log_path: logs
+2022-11-16 20:25:29,749 - cache_path: cache
+2022-11-16 20:25:29,749 - video_data_path: video_data
+2022-11-16 20:25:29,749 - audio_data_path: audio_data
+2022-11-16 20:25:29,749 - video_feats_path: video_feats.pkl
+2022-11-16 20:25:29,749 - audio_feats_path: audio_feats.pkl
+2022-11-16 20:25:29,749 - results_path: results
+2022-11-16 20:25:29,749 - output_path: outputs
+2022-11-16 20:25:29,749 - model_path: models
+2022-11-16 20:25:29,749 - config_file_name: text_bert
+2022-11-16 20:25:29,749 - results_file_name: text_bert.csv
+2022-11-16 20:25:29,749 - padding_mode: zero
+2022-11-16 20:25:29,749 - padding_loc: end
+2022-11-16 20:25:29,749 - eval_monitor: f1
+2022-11-16 20:25:29,749 - train_batch_size: 16
+2022-11-16 20:25:29,749 - eval_batch_size: 8
+2022-11-16 20:25:29,749 - test_batch_size: 8
+2022-11-16 20:25:29,749 - wait_patience: 8
+2022-11-16 20:25:29,749 - num_train_epochs: 100
+2022-11-16 20:25:29,749 - warmup_proportion: 0.1
+2022-11-16 20:25:29,749 - lr: 2e-05
+2022-11-16 20:25:29,749 - weight_decay: 0.1
+2022-11-16 20:25:29,749 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'eval_monitor': 'f1', 'train_batch_size': 16, 'eval_batch_size': 8, 'test_batch_size': 8, 'wait_patience': 8}, 'hyper_param': {'num_train_epochs': 100, 'warmup_proportion': 0.1, 'lr': 2e-05, 'weight_decay': 0.1}}
+2022-11-16 20:25:29,749 - pred_output_path: outputs\text_MIntRec_multi-class_2022-11-16-20-25-29
+2022-11-16 20:25:29,749 - model_output_path: outputs\text_MIntRec_multi-class_2022-11-16-20-25-29\models
+2022-11-16 20:25:29,749 - ============================== End Params ==============================
+2022-11-16 20:25:29,752 - Generate Text Features Begin...
+2022-11-16 20:26:22,314 - Generate Text Features Finished...
+2022-11-16 20:26:22,314 - Load Video Features Begin...
+2022-11-16 20:26:22,761 - Load Video Features Finished...
+2022-11-16 20:26:23,207 - Load Audio Features Begin...
+2022-11-16 20:26:24,111 - Load Audio Features Finished...
+2022-11-16 20:26:47,191 - Multimodal intent recognition begins...
+2022-11-16 20:26:47,193 - Training begins...

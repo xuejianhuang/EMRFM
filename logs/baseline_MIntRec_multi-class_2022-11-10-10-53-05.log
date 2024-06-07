@@ -1,0 +1,76 @@
+2022-11-10 10:53:05,088 - ============================== Params ==============================
+2022-11-10 10:53:05,088 - logger_name: baseline_MIntRec_multi-class_2022-11-10-10-53-05
+2022-11-10 10:53:05,088 - dataset: MIntRec
+2022-11-10 10:53:05,088 - data_mode: multi-class
+2022-11-10 10:53:05,088 - method: baseline
+2022-11-10 10:53:05,088 - text_backbone: bert-base-uncased
+2022-11-10 10:53:05,089 - seed: 0
+2022-11-10 10:53:05,089 - num_workers: 0
+2022-11-10 10:53:05,089 - gpu_id: 0
+2022-11-10 10:53:05,089 - data_path: MIA-datasets
+2022-11-10 10:53:05,089 - train: True
+2022-11-10 10:53:05,089 - tune: False
+2022-11-10 10:53:05,089 - save_model: True
+2022-11-10 10:53:05,089 - save_results: True
+2022-11-10 10:53:05,089 - log_path: logs
+2022-11-10 10:53:05,089 - cache_path: cache
+2022-11-10 10:53:05,089 - video_data_path: video_data
+2022-11-10 10:53:05,089 - audio_data_path: audio_data
+2022-11-10 10:53:05,089 - video_feats_path: video_feats.pkl
+2022-11-10 10:53:05,089 - audio_feats_path: audio_feats.pkl
+2022-11-10 10:53:05,089 - results_path: results
+2022-11-10 10:53:05,089 - output_path: outputs
+2022-11-10 10:53:05,089 - model_path: models
+2022-11-10 10:53:05,089 - config_file_name: baseline_bert
+2022-11-10 10:53:05,089 - results_file_name: baseline_bert.csv
+2022-11-10 10:53:05,089 - padding_mode: zero
+2022-11-10 10:53:05,089 - padding_loc: end
+2022-11-10 10:53:05,089 - need_aligned: False
+2022-11-10 10:53:05,089 - eval_monitor: f1
+2022-11-10 10:53:05,089 - train_batch_size: 6
+2022-11-10 10:53:05,089 - eval_batch_size: 6
+2022-11-10 10:53:05,089 - test_batch_size: 4
+2022-11-10 10:53:05,089 - wait_patience: 4
+2022-11-10 10:53:05,089 - num_train_epochs: 100
+2022-11-10 10:53:05,089 - hidden_size: 256
+2022-11-10 10:53:05,089 - dropout_rate: 0
+2022-11-10 10:53:05,089 - lr: 3e-05
+2022-11-10 10:53:05,089 - grad_clip: -1.0
+2022-11-10 10:53:05,089 - gamma: 0.5
+2022-11-10 10:53:05,089 - common_hyper_param: {'common_param': {'padding_mode': 'zero', 'padding_loc': 'end', 'need_aligned': False, 'eval_monitor': 'f1', 'train_batch_size': 6, 'eval_batch_size': 6, 'test_batch_size': 4, 'wait_patience': 4}, 'hyper_param': {'num_train_epochs': 100, 'hidden_size': 256, 'dropout_rate': 0, 'lr': 3e-05, 'grad_clip': -1.0, 'gamma': 0.5}}
+2022-11-10 10:53:05,089 - pred_output_path: outputs\baseline_MIntRec_multi-class_2022-11-10-10-53-05
+2022-11-10 10:53:05,089 - model_output_path: outputs\baseline_MIntRec_multi-class_2022-11-10-10-53-05\models
+2022-11-10 10:53:05,089 - ============================== End Params ==============================
+2022-11-10 10:53:05,093 - Generate Text Features Begin...
+2022-11-10 10:53:21,955 - Generate Text Features Finished...
+2022-11-10 10:53:21,955 - Load Video Features Begin...
+2022-11-10 10:53:22,165 - Load Video Features Finished...
+2022-11-10 10:53:22,560 - Load Audio Features Begin...
+2022-11-10 10:53:23,312 - Load Audio Features Finished...
+2022-11-10 10:53:41,381 - Multimodal intent recognition begins...
+2022-11-10 10:53:41,386 - Training begins...
+2022-11-10 10:54:14,856 - ***** Epoch: 1: Eval results *****
+2022-11-10 10:54:14,865 -   best_eval_score = 0.0481
+2022-11-10 10:54:14,865 -   eval_score = 0.0481
+2022-11-10 10:54:14,865 -   train_loss = 2.7513
+2022-11-10 10:54:43,112 - ***** Epoch: 2: Eval results *****
+2022-11-10 10:54:43,112 -   best_eval_score = 0.0712
+2022-11-10 10:54:43,112 -   eval_score = 0.0712
+2022-11-10 10:54:43,112 -   train_loss = 2.4691
+2022-11-10 10:55:11,246 - ***** Epoch: 3: Eval results *****
+2022-11-10 10:55:11,246 -   best_eval_score = 0.0762
+2022-11-10 10:55:11,246 -   eval_score = 0.0762
+2022-11-10 10:55:11,246 -   train_loss = 2.2804
+2022-11-10 10:55:39,261 - ***** Epoch: 4: Eval results *****
+2022-11-10 10:55:39,261 -   best_eval_score = 0.0829
+2022-11-10 10:55:39,261 -   eval_score = 0.0829
+2022-11-10 10:55:39,261 -   train_loss = 2.2066
+2022-11-10 10:56:07,244 - EarlyStopping counter: 1 out of 4
+2022-11-10 10:56:07,244 - ***** Epoch: 5: Eval results *****
+2022-11-10 10:56:07,244 -   best_eval_score = 0.0829
+2022-11-10 10:56:07,251 -   eval_score = 0.0814
+2022-11-10 10:56:07,251 -   train_loss = 2.065
+2022-11-10 10:56:34,804 - ***** Epoch: 6: Eval results *****
+2022-11-10 10:56:34,804 -   best_eval_score = 0.1014
+2022-11-10 10:56:34,804 -   eval_score = 0.1014
+2022-11-10 10:56:34,804 -   train_loss = 1.8759
